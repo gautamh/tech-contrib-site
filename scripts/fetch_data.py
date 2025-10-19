@@ -1,25 +1,59 @@
-import requests
-from datetime import datetime, timedelta
-from dotenv import load_dotenv
-import pandas as pd
-from typing import List, Dict, Set, Tuple
-from dataclasses import dataclass, asdict
+"""
+This script fetches campaign finance data from the FEC API.
+
+It retrieves two types of data:
+1. Individual contributions from a predefined list of tech executives (Schedule A).
+2. Expenditures by a predefined list of corporate PACs (Schedule B).
+
+The raw data is saved to JSON files in the `static/data` directory for further processing.
+"""
+
 import os
 import json
 import time
+from typing import List, Dict
+from dataclasses import dataclass
 
-# Configuration
+import requests
+from dotenv import load_dotenv
+
+# --- Configuration ---
+
 BASE_URL = "https://api.open.fec.gov/v1/"
+
+# A list of corporate PACs to track.
+# The keys are for reference; the script uses the committee IDs.
+PAC_IDS = {
+    "Google": "C00428623",
+    "Meta": "C00786883",
+    "Microsoft": "C00125997"
+}
+
+# A list of tech executives to track.
+CONTRIBUTORS_TO_TRACK = [
+    Contributor(name="Sundar Pichai", employer="Google"),
+    Contributor(name="Kent Walker", employer="Google"),
+    Contributor(name="Thomas Kurian", employer="Google"),
+    Contributor(name="Mark Zuckerberg", employer="Meta"),
+    Contributor(name="Sheryl Sandberg", employer="Meta"),
+    Contributor(name="Satya Nadella", employer="Microsoft"),
+    Contributor(name="Brad Smith", employer="Microsoft"),
+]
+
+# --- Dataclasses ---
 
 @dataclass
 class Contributor:
-    """Represents a political contributor with name and employer information"""
+    """Represents a political contributor to search for."""
     name: str
     employer: str
 
+# --- API Fetching Class ---
+
 class FECContributionAnalyzer:
+    """A client to fetch data from the FEC API with built-in retry logic."""
     def __init__(self, api_key: str):
-        """Initialize the analyzer with an API key"""
+        """Initializes the analyzer with an FEC API key."""
         self.api_key = api_key
         self.base_params = {
             'api_key': api_key,
@@ -28,8 +62,66 @@ class FECContributionAnalyzer:
             'per_page': 100,
         }
 
+    def _fetch_paginated_data(self, endpoint: str, params: Dict, description: str) -> List[Dict]:
+        """Generic helper to fetch all pages for a given FEC endpoint.
+
+        Args:
+            endpoint: The specific API endpoint URL.
+            params: The query parameters for the request.
+            description: A description of the data being fetched, for logging.
+
+        Returns:
+            A list of all result dictionaries from all pages.
+        """
+        all_results = []
+        page = 1
+        retries = 3
+
+        while True:
+            params['page'] = page
+            response = None
+
+            for attempt in range(retries):
+                try:
+                    print(f"Fetching {description} (page {page}), attempt {attempt + 1}")
+                    response = requests.get(endpoint, params=params, timeout=30)
+                    if response.status_code == 200:
+                        break  # Success
+                    else:
+                        print(f"API request failed, status: {response.status_code}. Retrying in 5s...")
+                        time.sleep(5)
+                except requests.exceptions.RequestException as e:
+                    print(f"API request exception: {e}. Retrying in 5s...")
+                    time.sleep(5)
+            
+            if response is None or response.status_code != 200:
+                print(f"All retries failed for {description} (page {page}). Skipping.")
+                break
+
+            data = response.json()
+            results = data.get('results', [])
+            if not results:
+                break
+                
+            all_results.extend(results)
+            
+            if 'pagination' not in data or page >= data['pagination']['pages']:
+                break
+            page += 1
+        
+        return all_results
+
     def get_contributor_data(self, contributor: Contributor, start_date: str, end_date: str) -> List[Dict]:
-        """Fetch all contributions for a given contributor within the date range"""
+        """Fetches all Schedule A contributions for a given individual.
+        
+        Args:
+            contributor: The individual to search for.
+            start_date: The start of the date range (MM/DD/YYYY).
+            end_date: The end of the date range (MM/DD/YYYY).
+
+        Returns:
+            A list of raw contribution records.
+        """
         params = self.base_params.copy()
         params.update({
             'contributor_name': contributor.name,
@@ -39,48 +131,21 @@ class FECContributionAnalyzer:
             'sort': '-contribution_receipt_date',
             'is_individual': True,
         })
-        
         endpoint = f"{BASE_URL}schedules/schedule_a/"
-        all_contributions = []
-        page = 1
-        retries = 3
-        
-        while True:
-            params['page'] = page
-            response = None
-            
-            for attempt in range(retries):
-                try:
-                    print(f"Fetching individual contributions for {contributor.name} (page {page}), attempt {attempt + 1}")
-                    response = requests.get(endpoint, params=params, timeout=30)
-                    if response.status_code == 200:
-                        break
-                    else:
-                        print(f"API request failed, status: {response.status_code}. Retrying in 5s...")
-                        time.sleep(5)
-                except requests.exceptions.RequestException as e:
-                    print(f"API request exception: {e}. Retrying in 5s...")
-                    time.sleep(5)
-            
-            if response is None or response.status_code != 200:
-                print(f"All retries failed for {contributor.name} (page {page}). Skipping.")
-                break
-
-            data = response.json()
-            results = data.get('results', [])
-            if not results:
-                break
-                
-            all_contributions.extend(results)
-            
-            if 'pagination' not in data or page >= data['pagination']['pages']:
-                break
-            page += 1
-                
-        return all_contributions
+        description = f"individual contributions for {contributor.name}"
+        return self._fetch_paginated_data(endpoint, params, description)
 
     def get_pac_expenditures(self, pac_ids: List[str], start_date: str, end_date: str) -> List[Dict]:
-        """Fetch all Schedule B expenditures for a given list of PACs."""
+        """Fetches all Schedule B expenditures for a given list of PACs.
+
+        Args:
+            pac_ids: A list of committee IDs for the PACs to query.
+            start_date: The start of the date range (MM/DD/YYYY).
+            end_date: The end of the date range (MM/DD/YYYY).
+
+        Returns:
+            A list of raw expenditure records.
+        """
         all_expenditures = []
         endpoint = f"{BASE_URL}schedules/schedule_b/"
         
@@ -92,71 +157,29 @@ class FECContributionAnalyzer:
                 'max_date': end_date,
                 'sort': '-disbursement_date',
             })
-            page = 1
-            retries = 3
-
-            while True:
-                params['page'] = page
-                response = None
-
-                for attempt in range(retries):
-                    try:
-                        print(f"Fetching PAC expenditures for {pac_id} (page {page}), attempt {attempt + 1}")
-                        response = requests.get(endpoint, params=params, timeout=30)
-                        if response.status_code == 200:
-                            break
-                        else:
-                            print(f"API request failed, status: {response.status_code}. Retrying in 5s...")
-                            time.sleep(5)
-                    except requests.exceptions.RequestException as e:
-                        print(f"API request exception: {e}. Retrying in 5s...")
-                        time.sleep(5)
-                
-                if response is None or response.status_code != 200:
-                    print(f"All retries failed for PAC {pac_id} (page {page}). Skipping.")
-                    break
-
-                data = response.json()
-                results = data.get('results', [])
-                if not results:
-                    break
-                
-                all_expenditures.extend(results)
-                
-                if 'pagination' not in data or page >= data['pagination']['pages']:
-                    break
-                page += 1
+            description = f"PAC expenditures for {pac_id}"
+            all_expenditures.extend(self._fetch_paginated_data(endpoint, params, description))
         
         return all_expenditures
 
+# --- Main Execution ---
+
 def main():
-    """Main function to fetch and save data."""
+    """Main function to fetch all data and save it to raw JSON files."""
     load_dotenv()
 
     api_key = os.getenv('FEC_API_KEY')
     if not api_key:
-        raise ValueError("FEC_API_KEY environment variable not set.")
+        raise ValueError("FEC_API_KEY environment variable not set. Please create a .env file.")
         
     analyzer = FECContributionAnalyzer(api_key)
+    start_date="01/01/2023"
+    end_date="12/31/2025"
     
-    # === Fetch Individual Contributions ===
-    contributors = [
-        Contributor(name="Sundar Pichai", employer="Google"),
-        Contributor(name="Kent Walker", employer="Google"),
-        Contributor(name="Thomas Kurian", employer="Google"),
-        Contributor(name="Mark Zuckerberg", employer="Meta"),
-        Contributor(name="Sheryl Sandberg", employer="Meta"),
-        Contributor(name="Satya Nadella", employer="Microsoft"),
-        Contributor(name="Brad Smith", employer="Microsoft"),
-    ]
-    
+    # --- Fetch and save individual contributions ---
     individual_contributions = []
-    for contributor in contributors:
-        contributions = analyzer.get_contributor_data(
-            contributor=contributor,
-            start_date="01/01/2023",
-            end_date="12/31/2025"
-        )
+    for contributor in CONTRIBUTORS_TO_TRACK:
+        contributions = analyzer.get_contributor_data(contributor, start_date, end_date)
         individual_contributions.extend(contributions)
     
     output_path = os.path.join(os.path.dirname(__file__), '..', 'static', 'data', 'contributions.json')
@@ -166,17 +189,8 @@ def main():
         json.dump(individual_contributions, f, indent=2)
     print(f"Successfully wrote {len(individual_contributions)} individual contributions to {output_path}")
 
-    # === Fetch PAC Expenditures ===
-    pac_ids = {
-        "Google": "C00428623",
-        "Meta": "C00786883",
-        "Microsoft": "C00125997"
-    }
-    pac_expenditures = analyzer.get_pac_expenditures(
-        pac_ids=list(pac_ids.values()),
-        start_date="01/01/2023",
-        end_date="12/31/2025"
-    )
+    # --- Fetch and save PAC expenditures ---
+    pac_expenditures = analyzer.get_pac_expenditures(list(PAC_IDS.values()), start_date, end_date)
     pac_output_path = os.path.join(os.path.dirname(__file__), '..', 'static', 'data', 'pac_contributions.json')
     with open(pac_output_path, 'w') as f:
         json.dump(pac_expenditures, f, indent=2)

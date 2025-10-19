@@ -21,3 +21,6 @@ deno.lock
 # OS
 .DS_Store
 Thumbs.db
+
+# Python
+scripts/__pycache__/

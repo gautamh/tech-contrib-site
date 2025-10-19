@@ -3,11 +3,13 @@
     import { base } from '$app/paths';
     import { slide } from 'svelte/transition';
 
+    // Reactive variables to hold the data for the page
     let clusterEvents = [];
     let pacContributions = [];
     let lastUpdated = new Date().toLocaleString();
-    let expandedItems = {}; // Tracks expanded state for all items
+    let expandedItems = {}; // Tracks expanded state for all collapsible sections
 
+    // Fetch the processed data once the component is mounted in the browser
     onMount(async () => {
         try {
             const response = await fetch(`${base}/data/formatted_contributions.json`);
@@ -23,25 +25,30 @@
         }
     });
 
+    // --- Formatting and Helper Functions ---
+
     const formatCurrency = (amount) => new Intl.NumberFormat('en-US', { style: 'currency', currency: 'USD', minimumFractionDigits: 0, maximumFractionDigits: 0 }).format(amount);
     
+    // Returns a color hex code based on party name for inline styling
     const getPartyColor = (party) => {
-        if (!party) return '#4b5563';
+        if (!party) return '#4b5563'; // gray-600
         const lowerParty = party.toLowerCase();
-        if (lowerParty === 'democratic party') return '#2563eb';
-        if (lowerParty === 'republican party') return '#dc2626';
-        return '#4b5563';
+        if (lowerParty === 'democratic party') return '#2563eb'; // blue-600
+        if (lowerParty === 'republican party') return '#dc2626'; // red-600
+        return '#4b5563'; // gray-600
     };
 
+    // Toggles the visibility of a details section
     function toggleExpanded(key) {
         expandedItems[key] = !expandedItems[key];
     }
 
+    // Groups a list of contributions by month string (e.g., "August 2025")
     function groupByMonth(contributions) {
         if (!contributions || contributions.length === 0) return [];
         const grouped = new Map();
         for (const c of contributions) {
-            if (!c.date || typeof c.date !== 'string') continue;
+            if (!c.date || typeof c.date !== 'string') continue; // Guard against invalid data
             const date = new Date(c.date.replace(/-/g, '/'));
             const monthYear = date.toLocaleString('en-US', { month: 'long', year: 'numeric' });
             if (!grouped.has(monthYear)) {
@@ -52,6 +59,7 @@
         return Array.from(grouped.entries());
     }
 
+    // Takes a list of contributions (for a single month) and summarizes them by donor/recipient pair.
     function summarizeContributionsInMonth(contributions) {
         const summary = new Map();
         for (const c of contributions) {
@@ -75,6 +83,7 @@
             entry.contributions.push(c);
         }
 
+        // Calculate date ranges and counts for each summary group
         return Array.from(summary.values()).map(s => {
             const dates = s.contributions.map(c => new Date(c.date.replace(/-/g, '/')));
             const minDate = new Date(Math.min(...dates));
@@ -86,6 +95,8 @@
             return { ...s, dateRange, contributionCount: s.contributions.length };
         });
     }
+
+    // --- Tab Switching Logic ---
 
     function showClusters(e) {
         e.target.classList.add('tab-active');
