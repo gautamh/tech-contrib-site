@@ -107,11 +107,15 @@ def format_cluster_data(raw_individual_data: List[dict]) -> List[dict]:
 
 def format_pac_data(raw_pac_data: List[dict]) -> List[dict]:
     """Processes raw PAC expenditures into a clean list of donations."""
-    pac_donations = []
     if not raw_pac_data:
-        return pac_donations
+        return []
 
-    for expenditure in raw_pac_data:
+    df = pd.DataFrame(raw_pac_data)
+    # Remove duplicates from source data, as the FEC API can return them
+    df.drop_duplicates(subset=['transaction_id'], keep='first', inplace=True)
+
+    pac_donations = []
+    for _, expenditure in df.iterrows():
         amount = expenditure.get('disbursement_amount')
         if amount is None or not expenditure.get('recipient_committee'):
             continue
