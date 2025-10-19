@@ -121,17 +121,17 @@
 
         <div class="border-b border-gray-200">
             <nav class="-mb-px flex space-x-6" aria-label="Tabs">
-                <button id="tab-clusters" on:click={showClusters} class="tab-active whitespace-nowrap py-3 px-1 border-b-2 font-medium text-sm">
+                <button id="tab-clusters" on:click={showClusters} class="text-gray-500 hover:text-gray-700 hover:border-gray-300 whitespace-nowrap py-3 px-1 border-b-2 font-medium text-sm">
                     ⚡️ Executive Clusters
                 </button>
-                <button id="tab-pacs" on:click={showPacs} class="text-gray-500 hover:text-gray-700 hover:border-gray-300 whitespace-nowrap py-3 px-1 border-b-2 font-medium text-sm">
+                <button id="tab-pacs" on:click={showPacs} class="tab-active whitespace-nowrap py-3 px-1 border-b-2 font-medium text-sm">
                     🏢 Corporate PACs
                 </button>
             </nav>
         </div>
 
         <!-- Executive Clusters (Individual Contributions) -->
-        <div id="feed-container-clusters" class="mt-6 space-y-6">
+        <div id="feed-container-clusters" class="mt-6 space-y-6 hidden">
             {#if clusterEvents.length > 0}
                 {#each clusterEvents as item, i}
                     {@const key = `cluster-${i}`}
@@ -181,7 +181,7 @@
         </div>
 
         <!-- Corporate PACs (Summarized) -->
-        <div id="feed-container-pacs" class="mt-6 space-y-6 hidden">
+        <div id="feed-container-pacs" class="mt-6 space-y-6">
              {#if pacContributions.length > 0}
                 {#each groupByMonth(pacContributions) as [month, contributionsInMonth]}
                     <div class="relative py-2">
