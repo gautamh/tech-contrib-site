@@ -121,11 +121,11 @@
 
         <div class="border-b border-gray-200">
             <nav class="-mb-px flex space-x-6" aria-label="Tabs">
-                <button id="tab-clusters" on:click={showClusters} class="text-gray-500 hover:text-gray-700 hover:border-gray-300 whitespace-nowrap py-3 px-1 border-b-2 font-medium text-sm">
-                    ⚡️ Executive Clusters
-                </button>
                 <button id="tab-pacs" on:click={showPacs} class="tab-active whitespace-nowrap py-3 px-1 border-b-2 font-medium text-sm">
                     🏢 Corporate PACs
+                </button>
+                <button id="tab-clusters" on:click={showClusters} class="text-gray-500 hover:text-gray-700 hover:border-gray-300 whitespace-nowrap py-3 px-1 border-b-2 font-medium text-sm">
+                    ⚡️ Executive Clusters
                 </button>
             </nav>
         </div>
