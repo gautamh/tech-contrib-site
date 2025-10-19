@@ -1,0 +1,67 @@
+name: Build and Deploy Data Site
+
+on:
+  schedule:
+    - cron: '0 8 * * *'
+  workflow_dispatch:
+  push:
+    branches:
+      - main
+
+jobs:
+  build-and-deploy:
+    runs-on: ubuntu-latest
+    permissions:
+      contents: write
+      pages: write
+      id-token: write
+
+    steps:
+      - name: 1. Checkout Repository
+        uses: actions/checkout@v4
+
+      - name: 2. Setup Python
+        uses: actions/setup-python@v5
+        with:
+          python-version: '3.11'
+
+      - name: 3. Install Python Dependencies
+        run: pip install -r ./scripts/requirements.txt
+
+      - name: 4. Run Scraper to Generate Fresh Data
+        env:
+          FEC_API_KEY: ${{ secrets.FEC_API_KEY }}
+        run: python ./scripts/fetch_data.py
+
+      - name: 5. Format Scraped Data
+        run: python ./scripts/format_data.py
+
+      - name: 6. Commit Updated Data Files
+        run: |
+          git config --global user.name 'GitHub Actions Bot'
+          git config --global user.email 'github-actions[bot]@users.noreply.github.com'
+          git add -A
+          git diff-index --quiet HEAD || (git commit -m "Update FEC data" && git push)
+
+      - name: 7. Setup Node.js
+        uses: actions/setup-node@v4
+        with:
+          node-version: '20'
+          cache: 'npm'
+
+      - name: 8. Install JS Dependencies & Build Site
+        run: |
+          npm install
+          npm run build
+
+      - name: 9. Setup GitHub Pages
+        uses: actions/configure-pages@v5
+
+      - name: 10. Upload Artifact
+        uses: actions/upload-pages-artifact@v3
+        with:
+          path: './build'
+
+      - name: 11. Deploy to GitHub Pages
+        id: deployment
+        uses: actions/deploy-pages@v4

@@ -1,0 +1,159 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Campaign Finance Activity Feed</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&display=swap" rel="stylesheet">
+    <style>
+        body {
+            font-family: 'Inter', sans-serif;
+        }
+        .tab-active {
+            border-bottom-width: 2px;
+            border-color: rgb(79 70 229);
+            color: rgb(79 70 229);
+        }
+    </style>
+</head>
+<body class="bg-gray-100 text-gray-800">
+
+    <div class="container mx-auto max-w-3xl p-4 sm:p-6 md:p-8">
+        
+        <header class="mb-6">
+            <h1 class="text-3xl font-bold text-gray-900">Tech Contributions Monitor</h1>
+            <p class="text-sm text-gray-500 mt-1">Last Updated: October 12, 2025, 9:25 PM</p>
+        </header>
+
+        <!-- Tab Navigation -->
+        <div class="border-b border-gray-200">
+            <nav class="-mb-px flex space-x-6" aria-label="Tabs">
+                <button id="tab-clusters" class="tab-active whitespace-nowrap py-3 px-1 border-b-2 font-medium text-sm">
+                    ⚡️ Executive Clusters
+                </button>
+                <button id="tab-pacs" class="text-gray-500 hover:text-gray-700 hover:border-gray-300 whitespace-nowrap py-3 px-1 border-b-2 font-medium text-sm">
+                    🏢 Corporate PACs
+                </button>
+            </nav>
+        </div>
+
+        <!-- Feed Containers (one for each tab) -->
+        <div id="feed-container-clusters" class="mt-6 space-y-6">
+            <!-- Cluster feed items will be injected here -->
+        </div>
+
+        <div id="feed-container-pacs" class="mt-6 space-y-6 hidden">
+             <!-- PAC feed items will be injected here -->
+        </div>
+    </div>
+
+    <script>
+        // --- MOCK DATA & COMMENTARY ---
+        const analystNotes = {
+            'note-001': "Mark Ronin has seen a surge in tech executive funding following his controversial statements on AI regulation. This coordinated support is a new development.",
+            'note-ronin-extreme': "Ronin's voting record and public statements on election integrity place him on the far-right of the political spectrum, making this influx of tech funding particularly noteworthy."
+        };
+
+        const mockData = {
+            pacContributions: [
+                { type: 'PAC_DONATION', data: { donorName: "Meta Platforms Inc. PAC", recipientName: "Majority Leader Fund", amount: 50000, recipientParty: "R", date: "2025-10-12T18:00:00Z" } },
+                { type: 'PAC_DONATION', data: { donorName: "Google LLC NetPAC", recipientName: "Future Forward USA", amount: 25000, recipientParty: "D", date: "2025-10-12T14:30:00Z" } },
+                { type: 'PAC_DONATION', data: { donorName: "Microsoft Corporation PAC", recipientName: "Tech for America", amount: 10000, recipientParty: "N", date: "2025-10-11T20:00:00Z", analystNoteId: 'note-001' } }
+            ],
+            clusterEvents: [
+                {
+                    type: 'CLUSTER_EVENT',
+                    data: {
+                        recipientName: "Mark Ronin for Senate",
+                        recipientParty: "R",
+                        isExtreme: true,
+                        totalAmount: 31200,
+                        donorCount: 3,
+                        timeframe: "in the last 24 hours",
+                        contributions: [
+                            { donorName: "Maria Garcia", donorInfo: "Google, Director of AI", amount: 25000 },
+                            { donorName: "David Chen", donorInfo: "Microsoft, Lead PM", amount: 2900 },
+                            { donorName: "Anonymous Donor", donorInfo: "Apple, Engineer", amount: 3300 }
+                        ],
+                        analystNoteId: 'note-ronin-extreme',
+                    }
+                },
+                 {
+                    type: 'CLUSTER_EVENT',
+                    data: {
+                        recipientName: "Sarah Jenkins",
+                        recipientParty: "D",
+                        isExtreme: false,
+                        totalAmount: 11600,
+                        donorCount: 2,
+                        timeframe: "in the last week",
+                        contributions: [
+                            { donorName: "Johnathan Reed", donorInfo: "Apple, VP Engineering", amount: 5800 },
+                            { donorName: "Emily Patel", donorInfo: "Salesforce, Sr. Architect", amount: 5800 }
+                        ]
+                    }
+                }
+            ]
+        };
+
+        // --- RENDER LOGIC ---
+        document.addEventListener('DOMContentLoaded', () => {
+            const tabClusters = document.getElementById('tab-clusters');
+            const tabPacs = document.getElementById('tab-pacs');
+            const feedClusters = document.getElementById('feed-container-clusters');
+            const feedPacs = document.getElementById('feed-container-pacs');
+
+            // Helper Functions
+            const formatCurrency = (amount) => new Intl.NumberFormat('en-US', { style: 'currency', currency: 'USD', minimumFractionDigits: 0, maximumFractionDigits: 0 }).format(amount);
+            
+            const createAnalystNote = (noteId) => {
+                if (!noteId || !analystNotes[noteId]) return '';
+                return `<div class="mt-4 p-3 bg-blue-50 border-l-4 border-blue-400 rounded-r-lg"><p class="text-sm text-blue-800"><span class="font-semibold">Analyst Note:</span> ${analystNotes[noteId]}</p></div>`;
+            };
+
+            const getPartyColor = (party) => (party === 'DEM' ? 'blue' : (party === 'REP' ? 'red' : 'gray'));
+
+            // Card Creation Functions
+            const createPacContributionItem = (item) => {
+                 const partyColor = getPartyColor(item.recipientParty);
+                 const date = new Date(item.date).toLocaleDateString('en-US', { month: 'short', day: 'numeric' });
+                 
+                 return `<div class="bg-white p-4 sm:p-5 rounded-xl shadow-md border-2 border-purple-200"><div class="flex items-start space-x-4"><div class="text-xl pt-1">🏢</div><div class="flex-1"><div class="flex justify-between items-start"><div><p class="text-xs font-semibold uppercase text-purple-600">Corporate PAC Donation</p><p class="text-gray-800 mt-1"><span class="font-semibold">${item.donorName}</span> donated <span class="font-bold text-gray-900">${formatCurrency(item.amount)}</span></p><p class="text-gray-600 mt-1">to <span class="font-semibold text-${partyColor}-600">${item.recipientName}</span></p></div><div class="text-right text-xs text-gray-400 whitespace-nowrap pt-1">${date}</div></div>${createAnalystNote(item.analystNoteId)}</div></div></div>`;
+            };
+            
+            const createClusterEventItem = (item) => {
+                const partyColor = getPartyColor(item.recipientParty);
+                const extremeFlag = item.isExtreme ? `<span class="ml-2 inline-flex items-center px-2 py-0.5 rounded-full text-xs font-medium bg-yellow-100 text-yellow-800 border border-yellow-300">🚩 Extreme Candidate</span>` : '';
+                const contributionList = item.contributions.map(c => `<li class="flex justify-between items-center py-2 border-b border-gray-100 last:border-b-0"><div><p class="font-medium text-gray-700">${c.donorName}</p><p class="text-xs text-gray-500">${c.donorInfo}</p></div><p class="font-semibold text-gray-800">${formatCurrency(c.amount)}</p></li>`).join('');
+                return `<div class="bg-orange-50 p-4 sm:p-5 rounded-xl shadow-lg border-2 border-orange-200"><div class="flex items-start space-x-4"><div class="text-2xl pt-2">⚡️</div><div class="flex-1"><p class="text-sm font-semibold uppercase text-orange-600">Executive Cluster Detected</p><h3 class="text-lg font-bold mt-1"><span class="text-gray-900">${formatCurrency(item.totalAmount)}</span> from ${item.donorCount} execs</h3><p class="text-gray-600 mt-1">to <span class="font-semibold text-${partyColor}-600">${item.recipientName}</span> ${extremeFlag}</p><div class="mt-4 bg-white rounded-lg border border-gray-200 p-3"><ul role="list">${contributionList}</ul></div>${createAnalystNote(item.analystNoteId)}</div></div></div>`;
+            };
+
+            // Tab Switching Logic
+            function showClusters() {
+                tabClusters.classList.add('tab-active');
+                tabPacs.classList.remove('tab-active');
+                feedClusters.classList.remove('hidden');
+                feedPacs.classList.add('hidden');
+            }
+
+            function showPacs() {
+                tabPacs.classList.add('tab-active');
+                tabClusters.classList.remove('tab-active');
+                feedPacs.classList.remove('hidden');
+                feedClusters.classList.add('hidden');
+            }
+
+            tabClusters.addEventListener('click', showClusters);
+            tabPacs.addEventListener('click', showPacs);
+
+            // Initial Population
+            feedClusters.innerHTML = mockData.clusterEvents.map(item => createClusterEventItem(item.data)).join('');
+            feedPacs.innerHTML = mockData.pacContributions.map(item => createPacContributionItem(item.data)).join('');
+        });
+    </script>
+</body>
+</html>
+
