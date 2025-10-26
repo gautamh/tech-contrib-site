@@ -128,14 +128,278 @@
       ]
     },
     {
+      "recipientName": "LOFGREN FOR CONGRESS",
+      "recipientParty": "DEMOCRATIC PARTY",
+      "isExtreme": false,
+      "totalAmount": 54800.0,
+      "donorCount": 6,
+      "employer": "GOOGLE",
+      "timeframe": "over 810 days",
+      "contributions": [
+        {
+          "donorName": "WALKER, KENT",
+          "donorInfo": "PRESIDENT",
+          "amount": 3500.0,
+          "date": "2025-05-31",
+          "fecUrl": "https://docquery.fec.gov/cgi-bin/fecimg/?202507159763129839"
+        },
+        {
+          "donorName": "WALKER, KENT",
+          "donorInfo": "PRESIDENT",
+          "amount": 3500.0,
+          "date": "2025-05-31",
+          "fecUrl": "https://docquery.fec.gov/cgi-bin/fecimg/?202507159763129832"
+        },
+        {
+          "donorName": "RAGHAVAN, PRABHAKAR",
+          "donorInfo": "ENGINEER",
+          "amount": 3500.0,
+          "date": "2025-05-16",
+          "fecUrl": "https://docquery.fec.gov/cgi-bin/fecimg/?202507159763129708"
+        },
+        {
+          "donorName": "RAGHAVAN, PRABHAKAR",
+          "donorInfo": "ENGINEER",
+          "amount": 3500.0,
+          "date": "2025-05-16",
+          "fecUrl": "https://docquery.fec.gov/cgi-bin/fecimg/?202507159763129631"
+        },
+        {
+          "donorName": "RAGHAVAN, PRABHAKAR",
+          "donorInfo": "ENGINEER",
+          "amount": 3500.0,
+          "date": "2025-05-16",
+          "fecUrl": "https://docquery.fec.gov/cgi-bin/fecimg/?202507159763129708"
+        },
+        {
+          "donorName": "RAGHAVAN, PRABHAKAR",
+          "donorInfo": "ENGINEER",
+          "amount": 3500.0,
+          "date": "2025-05-16",
+          "fecUrl": "https://docquery.fec.gov/cgi-bin/fecimg/?202507159763129631"
+        },
+        {
+          "donorName": "FITZPATRICK, JENNIFER",
+          "donorInfo": "SVP",
+          "amount": 3500.0,
+          "date": "2025-05-14",
+          "fecUrl": "https://docquery.fec.gov/cgi-bin/fecimg/?202507159763129939"
+        },
+        {
+          "donorName": "FITZPATRICK, JENNIFER",
+          "donorInfo": "SVP",
+          "amount": 3500.0,
+          "date": "2025-05-14",
+          "fecUrl": "https://docquery.fec.gov/cgi-bin/fecimg/?202507159763129713"
+        },
+        {
+          "donorName": "DEAN, JEFFREY",
+          "donorInfo": "CHIEF SCIENTIST",
+          "amount": 3500.0,
+          "date": "2025-05-13",
+          "fecUrl": "https://docquery.fec.gov/cgi-bin/fecimg/?202507159763129868"
+        },
+        {
+          "donorName": "DEAN, JEFFREY",
+          "donorInfo": "CHIEF SCIENTIST",
+          "amount": 3500.0,
+          "date": "2025-05-13",
+          "fecUrl": "https://docquery.fec.gov/cgi-bin/fecimg/?202507159763129757"
+        },
+        {
+          "donorName": "DEAN, JEFF",
+          "donorInfo": "CHIEF SCIENTIST",
+          "amount": 3300.0,
+          "date": "2024-05-01",
+          "fecUrl": "https://docquery.fec.gov/cgi-bin/fecimg/?202407149653226056"
+        },
+        {
+          "donorName": "DEAN, JEFF",
+          "donorInfo": "CHIEF SCIENTIST",
+          "amount": 3300.0,
+          "date": "2023-06-29",
+          "fecUrl": "https://docquery.fec.gov/cgi-bin/fecimg/?202307149582849574"
+        },
+        {
+          "donorName": "FITZPATRICK, JENNIFER",
+          "donorInfo": "SENIOR VICE PRESIDENT",
+          "amount": 3300.0,
+          "date": "2023-03-13",
+          "fecUrl": "https://docquery.fec.gov/cgi-bin/fecimg/?202304149580570744"
+        },
+        {
+          "donorName": "FITZPATRICK, JENNIFER",
+          "donorInfo": "SENIOR VICE PRESIDENT",
+          "amount": 3300.0,
+          "date": "2023-03-13",
+          "fecUrl": "https://docquery.fec.gov/cgi-bin/fecimg/?202304149580570727"
+        },
+        {
+          "donorName": "MOHAN, NEAL",
+          "donorInfo": "CEO EMERITUS YOUTUBE",
+          "amount": 3300.0,
+          "date": "2023-03-13",
+          "fecUrl": "https://docquery.fec.gov/cgi-bin/fecimg/?202304149580570699"
+        },
+        {
+          "donorName": "MOHAN, NEAL",
+          "donorInfo": "CEO EMERITUS YOUTUBE",
+          "amount": 3300.0,
+          "date": "2023-03-13",
+          "fecUrl": "https://docquery.fec.gov/cgi-bin/fecimg/?202304149580570681"
+        }
+      ]
+    },
+    {
+      "recipientName": "MARTIN HEINRICH FOR SENATE",
+      "recipientParty": "DEMOCRATIC PARTY",
+      "isExtreme": false,
+      "totalAmount": 30700.0,
+      "donorCount": 5,
+      "employer": "GOOGLE",
+      "timeframe": "over 387 days",
+      "contributions": [
+        {
+          "donorName": "DEAN, JEFF",
+          "donorInfo": "SENIOR VICE PRESIDENT",
+          "amount": 3300.0,
+          "date": "2024-04-26",
+          "fecUrl": "https://docquery.fec.gov/cgi-bin/fecimg/?202405239648752108"
+        },
+        {
+          "donorName": "FITZPATRICK, JENNIFER",
+          "donorInfo": "SENIOR VICE PRESIDENT",
+          "amount": 3300.0,
+          "date": "2024-03-28",
+          "fecUrl": "https://docquery.fec.gov/cgi-bin/fecimg/?202404159627982870"
+        },
+        {
+          "donorName": "RAGHAVAN, PRABHAKAR",
+          "donorInfo": "ENGINEER",
+          "amount": 3300.0,
+          "date": "2023-10-10",
+          "fecUrl": "https://docquery.fec.gov/cgi-bin/fecimg/?202401319607714946"
+        },
+        {
+          "donorName": "RAGHAVAN, PRABHAKAR",
+          "donorInfo": "ENGINEER",
+          "amount": 3300.0,
+          "date": "2023-10-10",
+          "fecUrl": "https://docquery.fec.gov/cgi-bin/fecimg/?202401319607714946"
+        },
+        {
+          "donorName": "TWOHILL, LORRAINE",
+          "donorInfo": "SENIOR VICE PRESIDENT",
+          "amount": 3300.0,
+          "date": "2023-07-13",
+          "fecUrl": "https://docquery.fec.gov/cgi-bin/fecimg/?202310139597568838"
+        },
+        {
+          "donorName": "TWOHILL, LORRAINE",
+          "donorInfo": "SENIOR VICE PRESIDENT",
+          "amount": 3300.0,
+          "date": "2023-07-13",
+          "fecUrl": "https://docquery.fec.gov/cgi-bin/fecimg/?202310139597568838"
+        },
+        {
+          "donorName": "DEAN, JEFF",
+          "donorInfo": "SENIOR VICE PRESIDENT",
+          "amount": 3300.0,
+          "date": "2023-06-30",
+          "fecUrl": "https://docquery.fec.gov/cgi-bin/fecimg/?202307149582637421"
+        },
+        {
+          "donorName": "TWOHILL, LORRAINE",
+          "donorInfo": "CMO",
+          "amount": 3300.0,
+          "date": "2023-04-05",
+          "fecUrl": "https://docquery.fec.gov/cgi-bin/fecimg/?202307149582638416"
+        },
+        {
+          "donorName": "TWOHILL, LORRAINE",
+          "donorInfo": "CMO",
+          "amount": 3300.0,
+          "date": "2023-04-05",
+          "fecUrl": "https://docquery.fec.gov/cgi-bin/fecimg/?202307149582638416"
+        },
+        {
+          "donorName": "DUBROWA, COREY",
+          "donorInfo": "VICE PRESIDENT",
+          "amount": 1000.0,
+          "date": "2023-04-05",
+          "fecUrl": "https://docquery.fec.gov/cgi-bin/fecimg/?202307149582637735"
+        }
+      ]
+    },
+    {
+      "recipientName": "DEMOCRATIC PARTY OF VIRGINIA",
+      "recipientParty": "DEMOCRATIC PARTY",
+      "isExtreme": false,
+      "totalAmount": 30000.0,
+      "donorCount": 2,
+      "employer": "MICROSOFT",
+      "timeframe": "over 179 days",
+      "contributions": [
+        {
+          "donorName": "SMITH, BRADFORD LEE",
+          "donorInfo": "VICE CHAIR & PRESIDENT",
+          "amount": 10000.0,
+          "date": "2025-03-17",
+          "fecUrl": "https://docquery.fec.gov/cgi-bin/fecimg/?202505209761470882"
+        },
+        {
+          "donorName": "SCOTT, JAMES KEVIN",
+          "donorInfo": "CTO",
+          "amount": 8848.83,
+          "date": "2024-09-19",
+          "fecUrl": "https://docquery.fec.gov/cgi-bin/fecimg/?202503319754832463"
+        },
+        {
+          "donorName": "SCOTT, JAMES KEVIN",
+          "donorInfo": "CTO",
+          "amount": 1151.17,
+          "date": "2024-09-19",
+          "fecUrl": "https://docquery.fec.gov/cgi-bin/fecimg/?202503319754832462"
+        },
+        {
+          "donorName": "SCOTT, JAMES KEVIN",
+          "donorInfo": "CTO",
+          "amount": 8848.83,
+          "date": "2024-09-19",
+          "fecUrl": "https://docquery.fec.gov/cgi-bin/fecimg/?202503319754832463"
+        },
+        {
+          "donorName": "SCOTT, JAMES KEVIN",
+          "donorInfo": "CTO",
+          "amount": 1151.17,
+          "date": "2024-09-19",
+          "fecUrl": "https://docquery.fec.gov/cgi-bin/fecimg/?202503319754832462"
+        }
+      ]
+    },
+    {
       "recipientName": "GUTHRIE FOR CONGRESS",
       "recipientParty": "REPUBLICAN PARTY",
       "isExtreme": false,
-      "totalAmount": 21000.0,
-      "donorCount": 2,
+      "totalAmount": 28000.0,
+      "donorCount": 3,
       "employer": "GOOGLE",
-      "timeframe": "over 17 days",
+      "timeframe": "over 21 days",
       "contributions": [
+        {
+          "donorName": "FITZPATRICK, JENNIFER",
+          "donorInfo": "SVP",
+          "amount": -3500.0,
+          "date": "2025-06-04",
+          "fecUrl": "https://docquery.fec.gov/cgi-bin/fecimg/?202509159790066805"
+        },
+        {
+          "donorName": "FITZPATRICK, JENNIFER",
+          "donorInfo": "SVP",
+          "amount": 3500.0,
+          "date": "2025-06-04",
+          "fecUrl": "https://docquery.fec.gov/cgi-bin/fecimg/?202509159790066804"
+        },
         {
           "donorName": "RAGHAVAN, PRABHAKAR",
           "donorInfo": "ENGINEER",
@@ -184,119 +448,267 @@
           "amount": 7000.0,
           "date": "2025-05-18",
           "fecUrl": "https://docquery.fec.gov/cgi-bin/fecimg/?202509159790066786"
+        },
+        {
+          "donorName": "FITZPATRICK, JENNIFER",
+          "donorInfo": "SVP",
+          "amount": 7000.0,
+          "date": "2025-05-14",
+          "fecUrl": "https://docquery.fec.gov/cgi-bin/fecimg/?202509159790066780"
         }
       ]
     },
     {
-      "recipientName": "MARTIN HEINRICH FOR SENATE",
+      "recipientName": "TED LIEU FOR CONGRESS",
       "recipientParty": "DEMOCRATIC PARTY",
       "isExtreme": false,
-      "totalAmount": 20800.0,
+      "totalAmount": 27400.0,
       "donorCount": 3,
       "employer": "GOOGLE",
-      "timeframe": "over 188 days",
+      "timeframe": "over 530 days",
       "contributions": [
         {
-          "donorName": "RAGHAVAN, PRABHAKAR",
-          "donorInfo": "ENGINEER",
+          "donorName": "WALKER, KENT",
+          "donorInfo": "PRESIDENT",
+          "amount": 200.0,
+          "date": "2025-05-31",
+          "fecUrl": "https://docquery.fec.gov/cgi-bin/fecimg/?202507159763506938"
+        },
+        {
+          "donorName": "WALKER, KENT",
+          "donorInfo": "PRESIDENT",
           "amount": 3300.0,
-          "date": "2023-10-10",
-          "fecUrl": "https://docquery.fec.gov/cgi-bin/fecimg/?202401319607714946"
+          "date": "2025-05-31",
+          "fecUrl": "https://docquery.fec.gov/cgi-bin/fecimg/?202507159763506938"
         },
         {
           "donorName": "RAGHAVAN, PRABHAKAR",
           "donorInfo": "ENGINEER",
-          "amount": 3300.0,
-          "date": "2023-10-10",
-          "fecUrl": "https://docquery.fec.gov/cgi-bin/fecimg/?202401319607714946"
+          "amount": 3500.0,
+          "date": "2025-05-21",
+          "fecUrl": "https://docquery.fec.gov/cgi-bin/fecimg/?202507159763506912"
         },
         {
-          "donorName": "TWOHILL, LORRAINE",
-          "donorInfo": "SENIOR VICE PRESIDENT",
-          "amount": 3300.0,
-          "date": "2023-07-13",
-          "fecUrl": "https://docquery.fec.gov/cgi-bin/fecimg/?202310139597568838"
+          "donorName": "RAGHAVAN, PRABHAKAR",
+          "donorInfo": "ENGINEER",
+          "amount": 3500.0,
+          "date": "2025-05-21",
+          "fecUrl": "https://docquery.fec.gov/cgi-bin/fecimg/?202507159763506911"
         },
         {
-          "donorName": "TWOHILL, LORRAINE",
-          "donorInfo": "SENIOR VICE PRESIDENT",
-          "amount": 3300.0,
-          "date": "2023-07-13",
-          "fecUrl": "https://docquery.fec.gov/cgi-bin/fecimg/?202310139597568838"
+          "donorName": "RAGHAVAN, PRABHAKAR",
+          "donorInfo": "ENGINEER",
+          "amount": 3500.0,
+          "date": "2025-05-21",
+          "fecUrl": "https://docquery.fec.gov/cgi-bin/fecimg/?202507159763506912"
         },
         {
-          "donorName": "TWOHILL, LORRAINE",
-          "donorInfo": "CMO",
-          "amount": 3300.0,
-          "date": "2023-04-05",
-          "fecUrl": "https://docquery.fec.gov/cgi-bin/fecimg/?202307149582638416"
+          "donorName": "RAGHAVAN, PRABHAKAR",
+          "donorInfo": "ENGINEER",
+          "amount": 3500.0,
+          "date": "2025-05-21",
+          "fecUrl": "https://docquery.fec.gov/cgi-bin/fecimg/?202507159763506911"
         },
         {
-          "donorName": "TWOHILL, LORRAINE",
-          "donorInfo": "CMO",
+          "donorName": "DEAN, JEFF",
+          "donorInfo": "CHIEF SCIENTIST",
           "amount": 3300.0,
-          "date": "2023-04-05",
-          "fecUrl": "https://docquery.fec.gov/cgi-bin/fecimg/?202307149582638416"
+          "date": "2024-05-06",
+          "fecUrl": "https://docquery.fec.gov/cgi-bin/fecimg/?202410159689243300"
         },
         {
-          "donorName": "DUBROWA, COREY",
-          "donorInfo": "VICE PRESIDENT",
-          "amount": 1000.0,
-          "date": "2023-04-05",
-          "fecUrl": "https://docquery.fec.gov/cgi-bin/fecimg/?202307149582637735"
+          "donorName": "RAGHAVAN, PRABHAKAR",
+          "donorInfo": "ENGINEER",
+          "amount": 3300.0,
+          "date": "2023-12-18",
+          "fecUrl": "https://docquery.fec.gov/cgi-bin/fecimg/?202401319619594623"
+        },
+        {
+          "donorName": "RAGHAVAN, PRABHAKAR",
+          "donorInfo": "ENGINEER",
+          "amount": 3300.0,
+          "date": "2023-12-18",
+          "fecUrl": "https://docquery.fec.gov/cgi-bin/fecimg/?202401319619594623"
         }
       ]
     },
     {
-      "recipientName": "LOFGREN FOR CONGRESS",
+      "recipientName": "KATHERINE CLARK FOR CONGRESS",
       "recipientParty": "DEMOCRATIC PARTY",
       "isExtreme": false,
-      "totalAmount": 20600.0,
-      "donorCount": 2,
+      "totalAmount": 26400.0,
+      "donorCount": 4,
       "employer": "GOOGLE",
-      "timeframe": "over 795 days",
+      "timeframe": "over 296 days",
       "contributions": [
         {
-          "donorName": "RAGHAVAN, PRABHAKAR",
-          "donorInfo": "ENGINEER",
-          "amount": 3500.0,
-          "date": "2025-05-16",
-          "fecUrl": "https://docquery.fec.gov/cgi-bin/fecimg/?202507159763129708"
-        },
-        {
-          "donorName": "RAGHAVAN, PRABHAKAR",
-          "donorInfo": "ENGINEER",
-          "amount": 3500.0,
-          "date": "2025-05-16",
-          "fecUrl": "https://docquery.fec.gov/cgi-bin/fecimg/?202507159763129631"
-        },
-        {
-          "donorName": "RAGHAVAN, PRABHAKAR",
-          "donorInfo": "ENGINEER",
-          "amount": 3500.0,
-          "date": "2025-05-16",
-          "fecUrl": "https://docquery.fec.gov/cgi-bin/fecimg/?202507159763129708"
-        },
-        {
-          "donorName": "RAGHAVAN, PRABHAKAR",
-          "donorInfo": "ENGINEER",
-          "amount": 3500.0,
-          "date": "2025-05-16",
-          "fecUrl": "https://docquery.fec.gov/cgi-bin/fecimg/?202507159763129631"
-        },
-        {
-          "donorName": "MOHAN, NEAL",
-          "donorInfo": "CEO EMERITUS YOUTUBE",
+          "donorName": "DEAN, JEFF",
+          "donorInfo": "SENIOR VICE PRESIDENT",
           "amount": 3300.0,
-          "date": "2023-03-13",
-          "fecUrl": "https://docquery.fec.gov/cgi-bin/fecimg/?202304149580570699"
+          "date": "2024-04-26",
+          "fecUrl": "https://docquery.fec.gov/cgi-bin/fecimg/?202407159653444311"
         },
         {
-          "donorName": "MOHAN, NEAL",
-          "donorInfo": "CEO EMERITUS YOUTUBE",
+          "donorName": "FITZPATRICK, JENNIFER",
+          "donorInfo": "SENIOR VICE PRESIDENT",
           "amount": 3300.0,
-          "date": "2023-03-13",
-          "fecUrl": "https://docquery.fec.gov/cgi-bin/fecimg/?202304149580570681"
+          "date": "2024-04-24",
+          "fecUrl": "https://docquery.fec.gov/cgi-bin/fecimg/?202407159653444329"
+        },
+        {
+          "donorName": "RAGHAVAN, PRABHAKAR",
+          "donorInfo": "ENGINEER",
+          "amount": 3300.0,
+          "date": "2023-12-29",
+          "fecUrl": "https://docquery.fec.gov/cgi-bin/fecimg/?202401319607804533"
+        },
+        {
+          "donorName": "RAGHAVAN, PRABHAKAR",
+          "donorInfo": "ENGINEER",
+          "amount": 3300.0,
+          "date": "2023-12-29",
+          "fecUrl": "https://docquery.fec.gov/cgi-bin/fecimg/?202401319607804533"
+        },
+        {
+          "donorName": "FITZPATRICK, JENNIFER",
+          "donorInfo": "SENIOR VICE PRESIDENT",
+          "amount": 3300.0,
+          "date": "2023-11-14",
+          "fecUrl": "https://docquery.fec.gov/cgi-bin/fecimg/?202401319607804380"
+        },
+        {
+          "donorName": "TWOHILL, LORRAINE",
+          "donorInfo": "SENIOR VICE PRESIDENT GLOBAL MARKETING",
+          "amount": 3300.0,
+          "date": "2023-07-13",
+          "fecUrl": "https://docquery.fec.gov/cgi-bin/fecimg/?202310139597625005"
+        },
+        {
+          "donorName": "TWOHILL, LORRAINE",
+          "donorInfo": "SENIOR VICE PRESIDENT GLOBAL MARKETING",
+          "amount": 3300.0,
+          "date": "2023-07-13",
+          "fecUrl": "https://docquery.fec.gov/cgi-bin/fecimg/?202310139597625005"
+        },
+        {
+          "donorName": "DEAN, JEFF",
+          "donorInfo": "SENIOR VICE PRESIDENT",
+          "amount": 3300.0,
+          "date": "2023-07-05",
+          "fecUrl": "https://docquery.fec.gov/cgi-bin/fecimg/?202310139597624865"
+        }
+      ]
+    },
+    {
+      "recipientName": "RHODE ISLAND DEMOCRATIC STATE COMMITTEE",
+      "recipientParty": "DEMOCRATIC PARTY",
+      "isExtreme": false,
+      "totalAmount": 24133.32,
+      "donorCount": 3,
+      "employer": "MICROSOFT",
+      "timeframe": "over 135 days",
+      "contributions": [
+        {
+          "donorName": "SCOTT, JAMES KEVIN",
+          "donorInfo": "CTO",
+          "amount": 8848.83,
+          "date": "2024-09-19",
+          "fecUrl": "https://docquery.fec.gov/cgi-bin/fecimg/?202411129719969248"
+        },
+        {
+          "donorName": "SCOTT, JAMES KEVIN",
+          "donorInfo": "CTO",
+          "amount": 1151.17,
+          "date": "2024-09-19",
+          "fecUrl": "https://docquery.fec.gov/cgi-bin/fecimg/?202411129719969244"
+        },
+        {
+          "donorName": "SCOTT, JAMES KEVIN",
+          "donorInfo": "CTO",
+          "amount": 8848.83,
+          "date": "2024-09-19",
+          "fecUrl": "https://docquery.fec.gov/cgi-bin/fecimg/?202411129719969248"
+        },
+        {
+          "donorName": "SCOTT, JAMES KEVIN",
+          "donorInfo": "CTO",
+          "amount": 1151.17,
+          "date": "2024-09-19",
+          "fecUrl": "https://docquery.fec.gov/cgi-bin/fecimg/?202411129719969244"
+        },
+        {
+          "donorName": "SMITH, BRADFORD LEE",
+          "donorInfo": "ATTORNEY",
+          "amount": 4092.15,
+          "date": "2024-05-09",
+          "fecUrl": "https://docquery.fec.gov/cgi-bin/fecimg/?202408079666112910"
+        },
+        {
+          "donorName": "ALTHOFF, JUDSON",
+          "donorInfo": "EXECUTIVE",
+          "amount": 41.17,
+          "date": "2024-05-07",
+          "fecUrl": "https://docquery.fec.gov/cgi-bin/fecimg/?202408079666112898"
+        }
+      ]
+    },
+    {
+      "recipientName": "JEFFRIES FOR CONGRESS",
+      "recipientParty": "DEMOCRATIC PARTY",
+      "isExtreme": false,
+      "totalAmount": 23300.0,
+      "donorCount": 4,
+      "employer": "GOOGLE",
+      "timeframe": "over 731 days",
+      "contributions": [
+        {
+          "donorName": "WALKER, KENT",
+          "donorInfo": "EXECUTIVE",
+          "amount": 3500.0,
+          "date": "2025-06-30",
+          "fecUrl": "https://docquery.fec.gov/cgi-bin/fecimg/?202507159763515670"
+        },
+        {
+          "donorName": "FITZPATRICK, JENNIFER",
+          "donorInfo": "SVP",
+          "amount": 3300.0,
+          "date": "2024-05-28",
+          "fecUrl": "https://docquery.fec.gov/cgi-bin/fecimg/?202409249684695686"
+        },
+        {
+          "donorName": "RAGHAVAN, PRABHAKAR",
+          "donorInfo": "ENGINEER",
+          "amount": 3300.0,
+          "date": "2024-03-15",
+          "fecUrl": "https://docquery.fec.gov/cgi-bin/fecimg/?202404159633220284"
+        },
+        {
+          "donorName": "RAGHAVAN, PRABHAKAR",
+          "donorInfo": "ENGINEER",
+          "amount": 3300.0,
+          "date": "2024-03-15",
+          "fecUrl": "https://docquery.fec.gov/cgi-bin/fecimg/?202404159633220284"
+        },
+        {
+          "donorName": "RAGHAVAN, PRABHAKAR",
+          "donorInfo": "ENGINEER",
+          "amount": 3300.0,
+          "date": "2023-09-23",
+          "fecUrl": "https://docquery.fec.gov/cgi-bin/fecimg/?202310159598306239"
+        },
+        {
+          "donorName": "RAGHAVAN, PRABHAKAR",
+          "donorInfo": "ENGINEER",
+          "amount": 3300.0,
+          "date": "2023-09-23",
+          "fecUrl": "https://docquery.fec.gov/cgi-bin/fecimg/?202310159598306239"
+        },
+        {
+          "donorName": "DEAN, JEFF",
+          "donorInfo": "SENIOR FELLOW AND SVP, GOOGLE RESEARCH",
+          "amount": 3300.0,
+          "date": "2023-06-30",
+          "fecUrl": "https://docquery.fec.gov/cgi-bin/fecimg/?202310209598755451"
         }
       ]
     },
@@ -531,52 +943,6 @@
       ]
     },
     {
-      "recipientName": "RHODE ISLAND DEMOCRATIC STATE COMMITTEE",
-      "recipientParty": "DEMOCRATIC PARTY",
-      "isExtreme": false,
-      "totalAmount": 20041.17,
-      "donorCount": 2,
-      "employer": "MICROSOFT",
-      "timeframe": "over 135 days",
-      "contributions": [
-        {
-          "donorName": "SCOTT, JAMES KEVIN",
-          "donorInfo": "CTO",
-          "amount": 8848.83,
-          "date": "2024-09-19",
-          "fecUrl": "https://docquery.fec.gov/cgi-bin/fecimg/?202411129719969248"
-        },
-        {
-          "donorName": "SCOTT, JAMES KEVIN",
-          "donorInfo": "CTO",
-          "amount": 1151.17,
-          "date": "2024-09-19",
-          "fecUrl": "https://docquery.fec.gov/cgi-bin/fecimg/?202411129719969244"
-        },
-        {
-          "donorName": "SCOTT, JAMES KEVIN",
-          "donorInfo": "CTO",
-          "amount": 8848.83,
-          "date": "2024-09-19",
-          "fecUrl": "https://docquery.fec.gov/cgi-bin/fecimg/?202411129719969248"
-        },
-        {
-          "donorName": "SCOTT, JAMES KEVIN",
-          "donorInfo": "CTO",
-          "amount": 1151.17,
-          "date": "2024-09-19",
-          "fecUrl": "https://docquery.fec.gov/cgi-bin/fecimg/?202411129719969244"
-        },
-        {
-          "donorName": "ALTHOFF, JUDSON",
-          "donorInfo": "EXECUTIVE",
-          "amount": 41.17,
-          "date": "2024-05-07",
-          "fecUrl": "https://docquery.fec.gov/cgi-bin/fecimg/?202408079666112898"
-        }
-      ]
-    },
-    {
       "recipientName": "W VA STATE DEMOCRATIC EX COM",
       "recipientParty": "DEMOCRATIC PARTY",
       "isExtreme": false,
@@ -623,55 +989,437 @@
       ]
     },
     {
-      "recipientName": "EMMER FOR CONGRESS",
+      "recipientName": "DELBENE FOR CONGRESS",
+      "recipientParty": "DEMOCRATIC PARTY",
+      "isExtreme": false,
+      "totalAmount": 19800.0,
+      "donorCount": 4,
+      "employer": "GOOGLE",
+      "timeframe": "over 333 days",
+      "contributions": [
+        {
+          "donorName": "FITZPATRICK, JENNIFER",
+          "donorInfo": "SVP",
+          "amount": 3300.0,
+          "date": "2024-05-28",
+          "fecUrl": "https://docquery.fec.gov/cgi-bin/fecimg/?202407159653423369"
+        },
+        {
+          "donorName": "RAGHAVAN, PRABHAKAR",
+          "donorInfo": "ENGINEER",
+          "amount": 3300.0,
+          "date": "2023-11-24",
+          "fecUrl": "https://docquery.fec.gov/cgi-bin/fecimg/?202401309600674513"
+        },
+        {
+          "donorName": "RAGHAVAN, PRABHAKAR",
+          "donorInfo": "ENGINEER",
+          "amount": 3300.0,
+          "date": "2023-11-24",
+          "fecUrl": "https://docquery.fec.gov/cgi-bin/fecimg/?202401309600674513"
+        },
+        {
+          "donorName": "TWOHILL, LORRAINE",
+          "donorInfo": "SVP GLOBAL MARKETING",
+          "amount": 3300.0,
+          "date": "2023-07-13",
+          "fecUrl": "https://docquery.fec.gov/cgi-bin/fecimg/?202310139597537705"
+        },
+        {
+          "donorName": "TWOHILL, LORRAINE",
+          "donorInfo": "SVP GLOBAL MARKETING",
+          "amount": 3300.0,
+          "date": "2023-07-13",
+          "fecUrl": "https://docquery.fec.gov/cgi-bin/fecimg/?202310139597537705"
+        },
+        {
+          "donorName": "DEAN, JEFF",
+          "donorInfo": "SVP",
+          "amount": 3300.0,
+          "date": "2023-06-30",
+          "fecUrl": "https://docquery.fec.gov/cgi-bin/fecimg/?202307149582708768"
+        }
+      ]
+    },
+    {
+      "recipientName": "ROSEN FOR NEVADA",
+      "recipientParty": "DEMOCRATIC PARTY",
+      "isExtreme": false,
+      "totalAmount": 19800.0,
+      "donorCount": 2,
+      "employer": "GOOGLE, INC.",
+      "timeframe": "over 392 days",
+      "contributions": [
+        {
+          "donorName": "RAGHAVAN, PRABHAKAR",
+          "donorInfo": "ENGINEER",
+          "amount": 3300.0,
+          "date": "2024-07-26",
+          "fecUrl": "https://docquery.fec.gov/cgi-bin/fecimg/?202410159687712079"
+        },
+        {
+          "donorName": "RAGHAVAN, PRABHAKAR",
+          "donorInfo": "ENGINEER",
+          "amount": 3300.0,
+          "date": "2024-07-26",
+          "fecUrl": "https://docquery.fec.gov/cgi-bin/fecimg/?202410159687712079"
+        },
+        {
+          "donorName": "DEAN, JEFF",
+          "donorInfo": "COMPUTER SCIENTIST",
+          "amount": 3300.0,
+          "date": "2024-04-29",
+          "fecUrl": "https://docquery.fec.gov/cgi-bin/fecimg/?202410129684906304"
+        },
+        {
+          "donorName": "RAGHAVAN, PRABHAKAR",
+          "donorInfo": "ENGINEER",
+          "amount": 3300.0,
+          "date": "2023-09-16",
+          "fecUrl": "https://docquery.fec.gov/cgi-bin/fecimg/?202404159632695049"
+        },
+        {
+          "donorName": "RAGHAVAN, PRABHAKAR",
+          "donorInfo": "ENGINEER",
+          "amount": 3300.0,
+          "date": "2023-09-16",
+          "fecUrl": "https://docquery.fec.gov/cgi-bin/fecimg/?202404159632695049"
+        },
+        {
+          "donorName": "DEAN, JEFF",
+          "donorInfo": "COMPUTER SCIENTIST",
+          "amount": 3300.0,
+          "date": "2023-06-30",
+          "fecUrl": "https://docquery.fec.gov/cgi-bin/fecimg/?202404159632688759"
+        }
+      ]
+    },
+    {
+      "recipientName": "TAMMY BALDWIN FOR SENATE",
+      "recipientParty": "DEMOCRATIC PARTY",
+      "isExtreme": false,
+      "totalAmount": 18150.0,
+      "donorCount": 3,
+      "employer": "GOOGLE",
+      "timeframe": "over 303 days",
+      "contributions": [
+        {
+          "donorName": "DEAN, JEFF",
+          "donorInfo": "COMPUTER SCIENTIST, SOFTWARE ENGINEER",
+          "amount": 1650.0,
+          "date": "2024-04-26",
+          "fecUrl": "https://docquery.fec.gov/cgi-bin/fecimg/?202410159698428611"
+        },
+        {
+          "donorName": "DEAN, JEFF",
+          "donorInfo": "COMPUTER SCIENTIST, SOFTWARE ENGINEER",
+          "amount": 1650.0,
+          "date": "2024-04-26",
+          "fecUrl": "https://docquery.fec.gov/cgi-bin/fecimg/?202410159698428611"
+        },
+        {
+          "donorName": "RAGHAVAN, PRABHAKAR",
+          "donorInfo": "ENGINEER",
+          "amount": 3300.0,
+          "date": "2024-03-24",
+          "fecUrl": "https://docquery.fec.gov/cgi-bin/fecimg/?202408059666077045"
+        },
+        {
+          "donorName": "RAGHAVAN, PRABHAKAR",
+          "donorInfo": "ENGINEER",
+          "amount": 3300.0,
+          "date": "2024-03-24",
+          "fecUrl": "https://docquery.fec.gov/cgi-bin/fecimg/?202408059666077045"
+        },
+        {
+          "donorName": "TWOHILL, LORRAINE",
+          "donorInfo": "SVP GLOBAL MARKETING",
+          "amount": 3300.0,
+          "date": "2023-07-13",
+          "fecUrl": "https://docquery.fec.gov/cgi-bin/fecimg/?202401239600231738"
+        },
+        {
+          "donorName": "TWOHILL, LORRAINE",
+          "donorInfo": "SVP GLOBAL MARKETING",
+          "amount": 3300.0,
+          "date": "2023-07-13",
+          "fecUrl": "https://docquery.fec.gov/cgi-bin/fecimg/?202401239600231738"
+        },
+        {
+          "donorName": "DEAN, JEFF",
+          "donorInfo": "COMPUTER SCIENTIST, SOFTWARE ENGINEER",
+          "amount": 1650.0,
+          "date": "2023-06-28",
+          "fecUrl": "https://docquery.fec.gov/cgi-bin/fecimg/?202405139645976065"
+        }
+      ]
+    },
+    {
+      "recipientName": "FRIENDS OF MARIA",
+      "recipientParty": "DEMOCRATIC PARTY",
+      "isExtreme": false,
+      "totalAmount": 16900.0,
+      "donorCount": 4,
+      "employer": "GOOGLE LLC",
+      "timeframe": "over 316 days",
+      "contributions": [
+        {
+          "donorName": "WALKER, KENT",
+          "donorInfo": "PRESIDENT",
+          "amount": 400.0,
+          "date": "2024-05-24",
+          "fecUrl": "https://docquery.fec.gov/cgi-bin/fecimg/?202409179675509853"
+        },
+        {
+          "donorName": "DEAN, JEFF",
+          "donorInfo": "AI DIVISION LEAD",
+          "amount": 3300.0,
+          "date": "2024-05-02",
+          "fecUrl": "https://docquery.fec.gov/cgi-bin/fecimg/?202409179675508806"
+        },
+        {
+          "donorName": "RAGHAVAN, PRABHAKAR",
+          "donorInfo": "SENIOR VICE PRESIDENT",
+          "amount": 3300.0,
+          "date": "2023-08-19",
+          "fecUrl": "https://docquery.fec.gov/cgi-bin/fecimg/?202310159597859948"
+        },
+        {
+          "donorName": "RAGHAVAN, PRABHAKAR",
+          "donorInfo": "SENIOR VICE PRESIDENT",
+          "amount": 3300.0,
+          "date": "2023-08-19",
+          "fecUrl": "https://docquery.fec.gov/cgi-bin/fecimg/?202310159597859948"
+        },
+        {
+          "donorName": "TWOHILL, LORRAINE",
+          "donorInfo": "SR VICE PRESIDENT OF GLOBAL MARKETS",
+          "amount": 3300.0,
+          "date": "2023-07-13",
+          "fecUrl": "https://docquery.fec.gov/cgi-bin/fecimg/?202310159597860177"
+        },
+        {
+          "donorName": "TWOHILL, LORRAINE",
+          "donorInfo": "SR VICE PRESIDENT OF GLOBAL MARKETS",
+          "amount": 3300.0,
+          "date": "2023-07-13",
+          "fecUrl": "https://docquery.fec.gov/cgi-bin/fecimg/?202310159597860177"
+        }
+      ]
+    },
+    {
+      "recipientName": "JAY OBERNOLTE FOR CONGRESS",
       "recipientParty": "REPUBLICAN PARTY",
       "isExtreme": false,
       "totalAmount": 16700.0,
       "donorCount": 2,
       "employer": "GOOGLE",
-      "timeframe": "over 253 days",
+      "timeframe": "over 596 days",
       "contributions": [
         {
-          "donorName": "KURIAN, THOMAS",
-          "donorInfo": "EXECUTIVE",
-          "amount": 1750.0,
-          "date": "2024-04-29",
-          "fecUrl": "https://docquery.fec.gov/cgi-bin/fecimg/?202407159653744721"
+          "donorName": "WALKER, KENT",
+          "donorInfo": "PRESIDENT, GLOBAL AFFAIRS",
+          "amount": 3300.0,
+          "date": "2025-05-31",
+          "fecUrl": "https://docquery.fec.gov/cgi-bin/fecimg/?202507159762854211"
         },
         {
-          "donorName": "KURIAN, THOMAS",
-          "donorInfo": "EXECUTIVE",
-          "amount": 1750.0,
-          "date": "2024-04-29",
-          "fecUrl": "https://docquery.fec.gov/cgi-bin/fecimg/?202407159653744721"
+          "donorName": "WALKER, KENT",
+          "donorInfo": "PRESIDENT, GLOBAL AFFAIRS",
+          "amount": 200.0,
+          "date": "2025-05-31",
+          "fecUrl": "https://docquery.fec.gov/cgi-bin/fecimg/?202507159762854210"
+        },
+        {
+          "donorName": "WALKER, KENT MR.",
+          "donorInfo": "PRESIDENT, GLOBAL AFFAIRS",
+          "amount": 3300.0,
+          "date": "2024-12-12",
+          "fecUrl": "https://docquery.fec.gov/cgi-bin/fecimg/?202501319748741735"
+        },
+        {
+          "donorName": "WALKER, KENT MR.",
+          "donorInfo": "PRESIDENT, GLOBAL AFFAIRS",
+          "amount": 3300.0,
+          "date": "2024-01-31",
+          "fecUrl": "https://docquery.fec.gov/cgi-bin/fecimg/?202402209619820521"
         },
         {
           "donorName": "RAGHAVAN, PRABHAKAR",
           "donorInfo": "ENGINEER",
           "amount": 3300.0,
-          "date": "2024-03-25",
-          "fecUrl": "https://docquery.fec.gov/cgi-bin/fecimg/?202407159653744945"
+          "date": "2023-10-13",
+          "fecUrl": "https://docquery.fec.gov/cgi-bin/fecimg/?202401129600041306"
         },
         {
           "donorName": "RAGHAVAN, PRABHAKAR",
           "donorInfo": "ENGINEER",
           "amount": 3300.0,
-          "date": "2024-03-25",
-          "fecUrl": "https://docquery.fec.gov/cgi-bin/fecimg/?202407159653744945"
+          "date": "2023-10-13",
+          "fecUrl": "https://docquery.fec.gov/cgi-bin/fecimg/?202401129600041306"
+        }
+      ]
+    },
+    {
+      "recipientName": "NEW DEMOCRAT COALITION ACTION FUND",
+      "recipientParty": "",
+      "isExtreme": false,
+      "totalAmount": 16600.0,
+      "donorCount": 3,
+      "employer": "GOOGLE",
+      "timeframe": "over 262 days",
+      "contributions": [
+        {
+          "donorName": "DEAN, JEFF",
+          "donorInfo": "CHIEF SCIENTIST",
+          "amount": 5000.0,
+          "date": "2024-05-07",
+          "fecUrl": "https://docquery.fec.gov/cgi-bin/fecimg/?202406179649033790"
+        },
+        {
+          "donorName": "FITZPATRICK, JENNIFER",
+          "donorInfo": "SVP",
+          "amount": 5000.0,
+          "date": "2024-04-24",
+          "fecUrl": "https://docquery.fec.gov/cgi-bin/fecimg/?202405209646113915"
+        },
+        {
+          "donorName": "RAGHAVAN, PRABHAKAR",
+          "donorInfo": "ENGINEER",
+          "amount": 3300.0,
+          "date": "2023-08-19",
+          "fecUrl": "https://docquery.fec.gov/cgi-bin/fecimg/?202309189597071249"
+        },
+        {
+          "donorName": "RAGHAVAN, PRABHAKAR",
+          "donorInfo": "ENGINEER",
+          "amount": 3300.0,
+          "date": "2023-08-19",
+          "fecUrl": "https://docquery.fec.gov/cgi-bin/fecimg/?202309189597071249"
+        }
+      ]
+    },
+    {
+      "recipientName": "JOHN CURTIS FOR UTAH",
+      "recipientParty": "REPUBLICAN PARTY",
+      "isExtreme": false,
+      "totalAmount": 16500.0,
+      "donorCount": 3,
+      "employer": "GOOGLE",
+      "timeframe": "over 124 days",
+      "contributions": [
+        {
+          "donorName": "FITZPATRICK, JENNIFER",
+          "donorInfo": "SVP",
+          "amount": 3300.0,
+          "date": "2023-11-14",
+          "fecUrl": "https://docquery.fec.gov/cgi-bin/fecimg/?202404159627904838"
+        },
+        {
+          "donorName": "RAGHAVAN, PRABHAKAR",
+          "donorInfo": "ENGINEER",
+          "amount": 3300.0,
+          "date": "2023-11-09",
+          "fecUrl": "https://docquery.fec.gov/cgi-bin/fecimg/?202404159627904854"
+        },
+        {
+          "donorName": "RAGHAVAN, PRABHAKAR",
+          "donorInfo": "ENGINEER",
+          "amount": 3300.0,
+          "date": "2023-11-09",
+          "fecUrl": "https://docquery.fec.gov/cgi-bin/fecimg/?202404159627904854"
+        },
+        {
+          "donorName": "TWOHILL, LORRAINE",
+          "donorInfo": "SVP GLOBAL MARKETING",
+          "amount": 3300.0,
+          "date": "2023-07-13",
+          "fecUrl": "https://docquery.fec.gov/cgi-bin/fecimg/?202310139597594640"
+        },
+        {
+          "donorName": "TWOHILL, LORRAINE",
+          "donorInfo": "SVP GLOBAL MARKETING",
+          "amount": 3300.0,
+          "date": "2023-07-13",
+          "fecUrl": "https://docquery.fec.gov/cgi-bin/fecimg/?202310139597594640"
+        }
+      ]
+    },
+    {
+      "recipientName": "PETE AGUILAR FOR CONGRESS",
+      "recipientParty": "DEMOCRATIC PARTY",
+      "isExtreme": false,
+      "totalAmount": 13400.0,
+      "donorCount": 3,
+      "employer": "GOOGLE",
+      "timeframe": "over 650 days",
+      "contributions": [
+        {
+          "donorName": "WALKER, KENT",
+          "donorInfo": "PRESIDENT",
+          "amount": 3500.0,
+          "date": "2025-05-31",
+          "fecUrl": "https://docquery.fec.gov/cgi-bin/fecimg/?202507159763337653"
+        },
+        {
+          "donorName": "FITZPATRICK, JENNIFER",
+          "donorInfo": "SVP",
+          "amount": 3300.0,
+          "date": "2024-05-28",
+          "fecUrl": "https://docquery.fec.gov/cgi-bin/fecimg/?202407159660073407"
         },
         {
           "donorName": "RAGHAVAN, PRABHAKAR",
           "donorInfo": "ENGINEER",
           "amount": 3300.0,
           "date": "2023-08-20",
-          "fecUrl": "https://docquery.fec.gov/cgi-bin/fecimg/?202310139597596908"
+          "fecUrl": "https://docquery.fec.gov/cgi-bin/fecimg/?202401029599928152"
         },
         {
           "donorName": "RAGHAVAN, PRABHAKAR",
           "donorInfo": "ENGINEER",
           "amount": 3300.0,
           "date": "2023-08-20",
-          "fecUrl": "https://docquery.fec.gov/cgi-bin/fecimg/?202310139597596908"
+          "fecUrl": "https://docquery.fec.gov/cgi-bin/fecimg/?202401029599928152"
+        }
+      ]
+    },
+    {
+      "recipientName": "DARRELL ISSA FOR CONGRESS",
+      "recipientParty": "REPUBLICAN PARTY",
+      "isExtreme": false,
+      "totalAmount": 13400.0,
+      "donorCount": 3,
+      "employer": "GOOGLE",
+      "timeframe": "over 564 days",
+      "contributions": [
+        {
+          "donorName": "WALKER, KENT",
+          "donorInfo": "PRESIDENT",
+          "amount": 3500.0,
+          "date": "2025-05-31",
+          "fecUrl": "https://docquery.fec.gov/cgi-bin/fecimg/?202507159763154071"
+        },
+        {
+          "donorName": "RAGHAVAN, PRABHAKAR",
+          "donorInfo": "ENGINEER",
+          "amount": 3300.0,
+          "date": "2023-12-18",
+          "fecUrl": "https://docquery.fec.gov/cgi-bin/fecimg/?202401299600575319"
+        },
+        {
+          "donorName": "RAGHAVAN, PRABHAKAR",
+          "donorInfo": "ENGINEER",
+          "amount": 3300.0,
+          "date": "2023-12-18",
+          "fecUrl": "https://docquery.fec.gov/cgi-bin/fecimg/?202401299600575319"
+        },
+        {
+          "donorName": "FITZPATRICK, JENNIFER",
+          "donorInfo": "SVP",
+          "amount": 3300.0,
+          "date": "2023-11-14",
+          "fecUrl": "https://docquery.fec.gov/cgi-bin/fecimg/?202401299600575282"
         }
       ]
     },
@@ -679,8 +1427,8 @@
       "recipientName": "DEB FISCHER FOR US SENATE",
       "recipientParty": "REPUBLICAN PARTY",
       "isExtreme": false,
-      "totalAmount": 16200.0,
-      "donorCount": 3,
+      "totalAmount": 13200.0,
+      "donorCount": 2,
       "employer": "GOOGLE",
       "timeframe": "over 379 days",
       "contributions": [
@@ -699,20 +1447,6 @@
           "fecUrl": "https://docquery.fec.gov/cgi-bin/fecimg/?202410239710175006"
         },
         {
-          "donorName": "KURIAN, THOMAS",
-          "donorInfo": "EXECUTIVE",
-          "amount": 1500.0,
-          "date": "2024-04-25",
-          "fecUrl": "https://docquery.fec.gov/cgi-bin/fecimg/?202407159660910914"
-        },
-        {
-          "donorName": "KURIAN, THOMAS",
-          "donorInfo": "EXECUTIVE",
-          "amount": 1500.0,
-          "date": "2024-04-25",
-          "fecUrl": "https://docquery.fec.gov/cgi-bin/fecimg/?202407159660910914"
-        },
-        {
           "donorName": "TWOHILL, LORRAINE",
           "donorInfo": "SVP GLOBAL MARKETING",
           "amount": 3300.0,
@@ -725,338 +1459,6 @@
           "amount": 3300.0,
           "date": "2023-07-13",
           "fecUrl": "https://docquery.fec.gov/cgi-bin/fecimg/?202402089619718753"
-        }
-      ]
-    },
-    {
-      "recipientName": "ROSEN FOR NEVADA",
-      "recipientParty": "DEMOCRATIC PARTY",
-      "isExtreme": false,
-      "totalAmount": 16200.0,
-      "donorCount": 2,
-      "employer": "GOOGLE, INC.",
-      "timeframe": "over 314 days",
-      "contributions": [
-        {
-          "donorName": "RAGHAVAN, PRABHAKAR",
-          "donorInfo": "ENGINEER",
-          "amount": 3300.0,
-          "date": "2024-07-26",
-          "fecUrl": "https://docquery.fec.gov/cgi-bin/fecimg/?202410159687712079"
-        },
-        {
-          "donorName": "RAGHAVAN, PRABHAKAR",
-          "donorInfo": "ENGINEER",
-          "amount": 3300.0,
-          "date": "2024-07-26",
-          "fecUrl": "https://docquery.fec.gov/cgi-bin/fecimg/?202410159687712079"
-        },
-        {
-          "donorName": "KURIAN, THOMAS",
-          "donorInfo": "EXECUTIVE",
-          "amount": 200.0,
-          "date": "2024-04-24",
-          "fecUrl": "https://docquery.fec.gov/cgi-bin/fecimg/?202410129684907237"
-        },
-        {
-          "donorName": "KURIAN, THOMAS",
-          "donorInfo": "EXECUTIVE",
-          "amount": 1300.0,
-          "date": "2024-04-24",
-          "fecUrl": "https://docquery.fec.gov/cgi-bin/fecimg/?202410129684906393"
-        },
-        {
-          "donorName": "KURIAN, THOMAS",
-          "donorInfo": "EXECUTIVE",
-          "amount": 200.0,
-          "date": "2024-04-24",
-          "fecUrl": "https://docquery.fec.gov/cgi-bin/fecimg/?202410129684907237"
-        },
-        {
-          "donorName": "KURIAN, THOMAS",
-          "donorInfo": "EXECUTIVE",
-          "amount": 1300.0,
-          "date": "2024-04-24",
-          "fecUrl": "https://docquery.fec.gov/cgi-bin/fecimg/?202410129684906393"
-        },
-        {
-          "donorName": "RAGHAVAN, PRABHAKAR",
-          "donorInfo": "ENGINEER",
-          "amount": 3300.0,
-          "date": "2023-09-16",
-          "fecUrl": "https://docquery.fec.gov/cgi-bin/fecimg/?202404159632695049"
-        },
-        {
-          "donorName": "RAGHAVAN, PRABHAKAR",
-          "donorInfo": "ENGINEER",
-          "amount": 3300.0,
-          "date": "2023-09-16",
-          "fecUrl": "https://docquery.fec.gov/cgi-bin/fecimg/?202404159632695049"
-        }
-      ]
-    },
-    {
-      "recipientName": "JASON SMITH FOR CONGRESS",
-      "recipientParty": "REPUBLICAN PARTY",
-      "isExtreme": false,
-      "totalAmount": 15500.0,
-      "donorCount": 2,
-      "employer": "GOOGLE",
-      "timeframe": "in the last week",
-      "contributions": [
-        {
-          "donorName": "RAGHAVAN, PRABHAKAR",
-          "donorInfo": "ENGINEER",
-          "amount": 3500.0,
-          "date": "2025-02-19",
-          "fecUrl": "https://docquery.fec.gov/cgi-bin/fecimg/?202504159756023953"
-        },
-        {
-          "donorName": "RAGHAVAN, PRABHAKAR",
-          "donorInfo": "ENGINEER",
-          "amount": -3500.0,
-          "date": "2025-02-19",
-          "fecUrl": "https://docquery.fec.gov/cgi-bin/fecimg/?202504159756023952"
-        },
-        {
-          "donorName": "RAGHAVAN, PRABHAKAR",
-          "donorInfo": "ENGINEER",
-          "amount": 7000.0,
-          "date": "2025-02-19",
-          "fecUrl": "https://docquery.fec.gov/cgi-bin/fecimg/?202504159756023952"
-        },
-        {
-          "donorName": "RAGHAVAN, PRABHAKAR",
-          "donorInfo": "ENGINEER",
-          "amount": 3500.0,
-          "date": "2025-02-19",
-          "fecUrl": "https://docquery.fec.gov/cgi-bin/fecimg/?202504159756023953"
-        },
-        {
-          "donorName": "RAGHAVAN, PRABHAKAR",
-          "donorInfo": "ENGINEER",
-          "amount": -3500.0,
-          "date": "2025-02-19",
-          "fecUrl": "https://docquery.fec.gov/cgi-bin/fecimg/?202504159756023952"
-        },
-        {
-          "donorName": "RAGHAVAN, PRABHAKAR",
-          "donorInfo": "ENGINEER",
-          "amount": 7000.0,
-          "date": "2025-02-19",
-          "fecUrl": "https://docquery.fec.gov/cgi-bin/fecimg/?202504159756023952"
-        },
-        {
-          "donorName": "KURIAN, THOMAS",
-          "donorInfo": "ENGINEER",
-          "amount": 750.0,
-          "date": "2025-02-15",
-          "fecUrl": "https://docquery.fec.gov/cgi-bin/fecimg/?202504159756023676"
-        },
-        {
-          "donorName": "KURIAN, THOMAS",
-          "donorInfo": "ENGINEER",
-          "amount": 750.0,
-          "date": "2025-02-15",
-          "fecUrl": "https://docquery.fec.gov/cgi-bin/fecimg/?202504159756023676"
-        }
-      ]
-    },
-    {
-      "recipientName": "JONI FOR IOWA",
-      "recipientParty": "REPUBLICAN PARTY",
-      "isExtreme": false,
-      "totalAmount": 13600.0,
-      "donorCount": 2,
-      "employer": "GOOGLE",
-      "timeframe": "over 267 days",
-      "contributions": [
-        {
-          "donorName": "KURIAN, THOMAS",
-          "donorInfo": "ENGINEER",
-          "amount": 200.0,
-          "date": "2024-05-20",
-          "fecUrl": "https://docquery.fec.gov/cgi-bin/fecimg/?202407159660702325"
-        },
-        {
-          "donorName": "KURIAN, THOMAS",
-          "donorInfo": "ENGINEER",
-          "amount": -200.0,
-          "date": "2024-05-20",
-          "fecUrl": "https://docquery.fec.gov/cgi-bin/fecimg/?202407159660702325"
-        },
-        {
-          "donorName": "KURIAN, THOMAS",
-          "donorInfo": "ENGINEER",
-          "amount": 200.0,
-          "date": "2024-05-20",
-          "fecUrl": "https://docquery.fec.gov/cgi-bin/fecimg/?202407159660702325"
-        },
-        {
-          "donorName": "KURIAN, THOMAS",
-          "donorInfo": "ENGINEER",
-          "amount": -200.0,
-          "date": "2024-05-20",
-          "fecUrl": "https://docquery.fec.gov/cgi-bin/fecimg/?202407159660702325"
-        },
-        {
-          "donorName": "KURIAN, THOMAS",
-          "donorInfo": "ENGINEER",
-          "amount": 1500.0,
-          "date": "2024-04-25",
-          "fecUrl": "https://docquery.fec.gov/cgi-bin/fecimg/?202407159660702325"
-        },
-        {
-          "donorName": "KURIAN, THOMAS",
-          "donorInfo": "ENGINEER",
-          "amount": 1500.0,
-          "date": "2024-04-25",
-          "fecUrl": "https://docquery.fec.gov/cgi-bin/fecimg/?202407159660702325"
-        },
-        {
-          "donorName": "RAGHAVAN, PRABHAKAR",
-          "donorInfo": "ENGINEER",
-          "amount": 3300.0,
-          "date": "2023-12-07",
-          "fecUrl": "https://docquery.fec.gov/cgi-bin/fecimg/?202401319607873805"
-        },
-        {
-          "donorName": "RAGHAVAN, PRABHAKAR",
-          "donorInfo": "ENGINEER",
-          "amount": 3300.0,
-          "date": "2023-12-07",
-          "fecUrl": "https://docquery.fec.gov/cgi-bin/fecimg/?202401319607873805"
-        },
-        {
-          "donorName": "KURIAN, THOMAS",
-          "donorInfo": "ENGINEER",
-          "amount": 2000.0,
-          "date": "2023-08-27",
-          "fecUrl": "https://docquery.fec.gov/cgi-bin/fecimg/?202310139597626160"
-        },
-        {
-          "donorName": "KURIAN, THOMAS",
-          "donorInfo": "ENGINEER",
-          "amount": 2000.0,
-          "date": "2023-08-27",
-          "fecUrl": "https://docquery.fec.gov/cgi-bin/fecimg/?202310139597626160"
-        }
-      ]
-    },
-    {
-      "recipientName": "TAMMY BALDWIN FOR SENATE",
-      "recipientParty": "DEMOCRATIC PARTY",
-      "isExtreme": false,
-      "totalAmount": 13200.0,
-      "donorCount": 2,
-      "employer": "GOOGLE",
-      "timeframe": "over 255 days",
-      "contributions": [
-        {
-          "donorName": "RAGHAVAN, PRABHAKAR",
-          "donorInfo": "ENGINEER",
-          "amount": 3300.0,
-          "date": "2024-03-24",
-          "fecUrl": "https://docquery.fec.gov/cgi-bin/fecimg/?202408059666077045"
-        },
-        {
-          "donorName": "RAGHAVAN, PRABHAKAR",
-          "donorInfo": "ENGINEER",
-          "amount": 3300.0,
-          "date": "2024-03-24",
-          "fecUrl": "https://docquery.fec.gov/cgi-bin/fecimg/?202408059666077045"
-        },
-        {
-          "donorName": "TWOHILL, LORRAINE",
-          "donorInfo": "SVP GLOBAL MARKETING",
-          "amount": 3300.0,
-          "date": "2023-07-13",
-          "fecUrl": "https://docquery.fec.gov/cgi-bin/fecimg/?202401239600231738"
-        },
-        {
-          "donorName": "TWOHILL, LORRAINE",
-          "donorInfo": "SVP GLOBAL MARKETING",
-          "amount": 3300.0,
-          "date": "2023-07-13",
-          "fecUrl": "https://docquery.fec.gov/cgi-bin/fecimg/?202401239600231738"
-        }
-      ]
-    },
-    {
-      "recipientName": "FRIENDS OF MARIA",
-      "recipientParty": "DEMOCRATIC PARTY",
-      "isExtreme": false,
-      "totalAmount": 13200.0,
-      "donorCount": 2,
-      "employer": "GOOGLE LLC",
-      "timeframe": "over 37 days",
-      "contributions": [
-        {
-          "donorName": "RAGHAVAN, PRABHAKAR",
-          "donorInfo": "SENIOR VICE PRESIDENT",
-          "amount": 3300.0,
-          "date": "2023-08-19",
-          "fecUrl": "https://docquery.fec.gov/cgi-bin/fecimg/?202310159597859948"
-        },
-        {
-          "donorName": "RAGHAVAN, PRABHAKAR",
-          "donorInfo": "SENIOR VICE PRESIDENT",
-          "amount": 3300.0,
-          "date": "2023-08-19",
-          "fecUrl": "https://docquery.fec.gov/cgi-bin/fecimg/?202310159597859948"
-        },
-        {
-          "donorName": "TWOHILL, LORRAINE",
-          "donorInfo": "SR VICE PRESIDENT OF GLOBAL MARKETS",
-          "amount": 3300.0,
-          "date": "2023-07-13",
-          "fecUrl": "https://docquery.fec.gov/cgi-bin/fecimg/?202310159597860177"
-        },
-        {
-          "donorName": "TWOHILL, LORRAINE",
-          "donorInfo": "SR VICE PRESIDENT OF GLOBAL MARKETS",
-          "amount": 3300.0,
-          "date": "2023-07-13",
-          "fecUrl": "https://docquery.fec.gov/cgi-bin/fecimg/?202310159597860177"
-        }
-      ]
-    },
-    {
-      "recipientName": "DELBENE FOR CONGRESS",
-      "recipientParty": "DEMOCRATIC PARTY",
-      "isExtreme": false,
-      "totalAmount": 13200.0,
-      "donorCount": 2,
-      "employer": "GOOGLE",
-      "timeframe": "over 134 days",
-      "contributions": [
-        {
-          "donorName": "RAGHAVAN, PRABHAKAR",
-          "donorInfo": "ENGINEER",
-          "amount": 3300.0,
-          "date": "2023-11-24",
-          "fecUrl": "https://docquery.fec.gov/cgi-bin/fecimg/?202401309600674513"
-        },
-        {
-          "donorName": "RAGHAVAN, PRABHAKAR",
-          "donorInfo": "ENGINEER",
-          "amount": 3300.0,
-          "date": "2023-11-24",
-          "fecUrl": "https://docquery.fec.gov/cgi-bin/fecimg/?202401309600674513"
-        },
-        {
-          "donorName": "TWOHILL, LORRAINE",
-          "donorInfo": "SVP GLOBAL MARKETING",
-          "amount": 3300.0,
-          "date": "2023-07-13",
-          "fecUrl": "https://docquery.fec.gov/cgi-bin/fecimg/?202310139597537705"
-        },
-        {
-          "donorName": "TWOHILL, LORRAINE",
-          "donorInfo": "SVP GLOBAL MARKETING",
-          "amount": 3300.0,
-          "date": "2023-07-13",
-          "fecUrl": "https://docquery.fec.gov/cgi-bin/fecimg/?202310139597537705"
         }
       ]
     },
@@ -1100,177 +1502,21 @@
       ]
     },
     {
-      "recipientName": "KATHERINE CLARK FOR CONGRESS",
-      "recipientParty": "DEMOCRATIC PARTY",
-      "isExtreme": false,
-      "totalAmount": 13200.0,
-      "donorCount": 2,
-      "employer": "GOOGLE",
-      "timeframe": "over 169 days",
-      "contributions": [
-        {
-          "donorName": "RAGHAVAN, PRABHAKAR",
-          "donorInfo": "ENGINEER",
-          "amount": 3300.0,
-          "date": "2023-12-29",
-          "fecUrl": "https://docquery.fec.gov/cgi-bin/fecimg/?202401319607804533"
-        },
-        {
-          "donorName": "RAGHAVAN, PRABHAKAR",
-          "donorInfo": "ENGINEER",
-          "amount": 3300.0,
-          "date": "2023-12-29",
-          "fecUrl": "https://docquery.fec.gov/cgi-bin/fecimg/?202401319607804533"
-        },
-        {
-          "donorName": "TWOHILL, LORRAINE",
-          "donorInfo": "SENIOR VICE PRESIDENT GLOBAL MARKETING",
-          "amount": 3300.0,
-          "date": "2023-07-13",
-          "fecUrl": "https://docquery.fec.gov/cgi-bin/fecimg/?202310139597625005"
-        },
-        {
-          "donorName": "TWOHILL, LORRAINE",
-          "donorInfo": "SENIOR VICE PRESIDENT GLOBAL MARKETING",
-          "amount": 3300.0,
-          "date": "2023-07-13",
-          "fecUrl": "https://docquery.fec.gov/cgi-bin/fecimg/?202310139597625005"
-        }
-      ]
-    },
-    {
-      "recipientName": "JOHN CURTIS FOR UTAH",
-      "recipientParty": "REPUBLICAN PARTY",
-      "isExtreme": false,
-      "totalAmount": 13200.0,
-      "donorCount": 2,
-      "employer": "GOOGLE",
-      "timeframe": "over 119 days",
-      "contributions": [
-        {
-          "donorName": "RAGHAVAN, PRABHAKAR",
-          "donorInfo": "ENGINEER",
-          "amount": 3300.0,
-          "date": "2023-11-09",
-          "fecUrl": "https://docquery.fec.gov/cgi-bin/fecimg/?202404159627904854"
-        },
-        {
-          "donorName": "RAGHAVAN, PRABHAKAR",
-          "donorInfo": "ENGINEER",
-          "amount": 3300.0,
-          "date": "2023-11-09",
-          "fecUrl": "https://docquery.fec.gov/cgi-bin/fecimg/?202404159627904854"
-        },
-        {
-          "donorName": "TWOHILL, LORRAINE",
-          "donorInfo": "SVP GLOBAL MARKETING",
-          "amount": 3300.0,
-          "date": "2023-07-13",
-          "fecUrl": "https://docquery.fec.gov/cgi-bin/fecimg/?202310139597594640"
-        },
-        {
-          "donorName": "TWOHILL, LORRAINE",
-          "donorInfo": "SVP GLOBAL MARKETING",
-          "amount": 3300.0,
-          "date": "2023-07-13",
-          "fecUrl": "https://docquery.fec.gov/cgi-bin/fecimg/?202310139597594640"
-        }
-      ]
-    },
-    {
-      "recipientName": "RO FOR CONGRESS INC",
-      "recipientParty": "DEMOCRATIC PARTY",
-      "isExtreme": false,
-      "totalAmount": 12900.0,
-      "donorCount": 2,
-      "employer": "GOOGLE",
-      "timeframe": "over 309 days",
-      "contributions": [
-        {
-          "donorName": "KURIAN, THOMAS",
-          "donorInfo": "EXECUTIVE",
-          "amount": 3300.0,
-          "date": "2024-04-30",
-          "fecUrl": "https://docquery.fec.gov/cgi-bin/fecimg/?202407159659921212"
-        },
-        {
-          "donorName": "KURIAN, THOMAS",
-          "donorInfo": "EXECUTIVE",
-          "amount": 3300.0,
-          "date": "2024-04-30",
-          "fecUrl": "https://docquery.fec.gov/cgi-bin/fecimg/?202407159659921212"
-        },
-        {
-          "donorName": "KURIAN, THOMAS",
-          "donorInfo": "ENGINEER",
-          "amount": 1500.0,
-          "date": "2023-08-27",
-          "fecUrl": "https://docquery.fec.gov/cgi-bin/fecimg/?202310139597558003"
-        },
-        {
-          "donorName": "KURIAN, THOMAS",
-          "donorInfo": "ENGINEER",
-          "amount": 1500.0,
-          "date": "2023-08-27",
-          "fecUrl": "https://docquery.fec.gov/cgi-bin/fecimg/?202310139597558003"
-        },
-        {
-          "donorName": "OSTERLOH, RICK",
-          "donorInfo": "ENGINEER",
-          "amount": 3300.0,
-          "date": "2023-06-26",
-          "fecUrl": "https://docquery.fec.gov/cgi-bin/fecimg/?202307149582576645"
-        }
-      ]
-    },
-    {
-      "recipientName": "KEVIN KILEY FOR CONGRESS",
-      "recipientParty": "REPUBLICAN PARTY",
-      "isExtreme": false,
-      "totalAmount": 12600.0,
-      "donorCount": 2,
-      "employer": "GOOGLE",
-      "timeframe": "in the last 24 hours",
-      "contributions": [
-        {
-          "donorName": "KURIAN, THOMAS",
-          "donorInfo": "ENGINEER",
-          "amount": 3000.0,
-          "date": "2024-12-12",
-          "fecUrl": "https://docquery.fec.gov/cgi-bin/fecimg/?202507109762753737"
-        },
-        {
-          "donorName": "KURIAN, THOMAS",
-          "donorInfo": "ENGINEER",
-          "amount": 3000.0,
-          "date": "2024-12-12",
-          "fecUrl": "https://docquery.fec.gov/cgi-bin/fecimg/?202507109762753737"
-        },
-        {
-          "donorName": "OSTERLOH, RICK",
-          "donorInfo": "ENGINEER",
-          "amount": 3300.0,
-          "date": "2024-12-12",
-          "fecUrl": "https://docquery.fec.gov/cgi-bin/fecimg/?202507109762753738"
-        },
-        {
-          "donorName": "OSTERLOH, RICK",
-          "donorInfo": "ENGINEER",
-          "amount": 3300.0,
-          "date": "2024-12-12",
-          "fecUrl": "https://docquery.fec.gov/cgi-bin/fecimg/?202507109762753738"
-        }
-      ]
-    },
-    {
       "recipientName": "HARRIS FOR PRESIDENT",
       "recipientParty": "DEMOCRATIC PARTY",
       "isExtreme": false,
-      "totalAmount": 11600.0,
-      "donorCount": 2,
+      "totalAmount": 11647.0,
+      "donorCount": 3,
       "employer": "MICROSOFT",
-      "timeframe": "over 272 days",
+      "timeframe": "over 398 days",
       "contributions": [
+        {
+          "donorName": "SMITH, BRADLEY",
+          "donorInfo": "MARKETING",
+          "amount": 47.0,
+          "date": "2024-09-10",
+          "fecUrl": "https://docquery.fec.gov/cgi-bin/fecimg/?202410209700191913"
+        },
         {
           "donorName": "ALTHOFF, JUDSON",
           "donorInfo": "EXECUTIVE",
@@ -1302,41 +1548,130 @@
       ]
     },
     {
-      "recipientName": "EMMER VICTORY COMMITTEE DBA REPUBLICAN CONGRESSIONAL VICTORY COMMITTEE",
-      "recipientParty": "",
+      "recipientName": "COLLINS FOR SENATOR",
+      "recipientParty": "REPUBLICAN PARTY",
       "isExtreme": false,
-      "totalAmount": 10100.0,
+      "totalAmount": 9900.0,
       "donorCount": 2,
       "employer": "GOOGLE",
-      "timeframe": "over 41 days",
+      "timeframe": "over 259 days",
       "contributions": [
         {
-          "donorName": "KURIAN, THOMAS",
-          "donorInfo": "EXECUTIVE",
-          "amount": 1750.0,
-          "date": "2024-04-25",
-          "fecUrl": "https://docquery.fec.gov/cgi-bin/fecimg/?202407159653746436"
+          "donorName": "FITZPATRICK, JENNIFER",
+          "donorInfo": "SVP",
+          "amount": 3300.0,
+          "date": "2024-03-28",
+          "fecUrl": "https://docquery.fec.gov/cgi-bin/fecimg/?202404159628002626"
         },
         {
-          "donorName": "KURIAN, THOMAS",
-          "donorInfo": "EXECUTIVE",
-          "amount": 1750.0,
-          "date": "2024-04-25",
-          "fecUrl": "https://docquery.fec.gov/cgi-bin/fecimg/?202407159653746436"
+          "donorName": "TWOHILL, LORRAINE",
+          "donorInfo": "SVP GLOBAL MARKETING",
+          "amount": 3300.0,
+          "date": "2023-07-13",
+          "fecUrl": "https://docquery.fec.gov/cgi-bin/fecimg/?202310129597474752"
+        },
+        {
+          "donorName": "TWOHILL, LORRAINE",
+          "donorInfo": "SVP GLOBAL MARKETING",
+          "amount": 3300.0,
+          "date": "2023-07-13",
+          "fecUrl": "https://docquery.fec.gov/cgi-bin/fecimg/?202310129597474752"
+        }
+      ]
+    },
+    {
+      "recipientName": "STAND WITH SANCHEZ",
+      "recipientParty": "DEMOCRATIC PARTY",
+      "isExtreme": false,
+      "totalAmount": 9900.0,
+      "donorCount": 2,
+      "employer": "GOOGLE",
+      "timeframe": "over 78 days",
+      "contributions": [
+        {
+          "donorName": "WALKER, KENT",
+          "donorInfo": "PRESIDENT",
+          "amount": 3300.0,
+          "date": "2023-09-29",
+          "fecUrl": "https://docquery.fec.gov/cgi-bin/fecimg/?202310159597806173"
+        },
+        {
+          "donorName": "TWOHILL, LORRAINE",
+          "donorInfo": "SVP GLOBAL MARKETING",
+          "amount": 3300.0,
+          "date": "2023-07-13",
+          "fecUrl": "https://docquery.fec.gov/cgi-bin/fecimg/?202310159597806175"
+        },
+        {
+          "donorName": "TWOHILL, LORRAINE",
+          "donorInfo": "SVP GLOBAL MARKETING",
+          "amount": 3300.0,
+          "date": "2023-07-13",
+          "fecUrl": "https://docquery.fec.gov/cgi-bin/fecimg/?202310159597806175"
+        }
+      ]
+    },
+    {
+      "recipientName": "MONTANANS FOR TESTER",
+      "recipientParty": "DEMOCRATIC PARTY",
+      "isExtreme": false,
+      "totalAmount": 9900.0,
+      "donorCount": 2,
+      "employer": "GOOGLE",
+      "timeframe": "over 112 days",
+      "contributions": [
+        {
+          "donorName": "FITZPATRICK, JENNIFER",
+          "donorInfo": "SVP",
+          "amount": 3300.0,
+          "date": "2024-03-28",
+          "fecUrl": "https://docquery.fec.gov/cgi-bin/fecimg/?202404159633178230"
         },
         {
           "donorName": "RAGHAVAN, PRABHAKAR",
           "donorInfo": "ENGINEER",
           "amount": 3300.0,
-          "date": "2024-03-15",
-          "fecUrl": "https://docquery.fec.gov/cgi-bin/fecimg/?202407159653745501"
+          "date": "2023-12-07",
+          "fecUrl": "https://docquery.fec.gov/cgi-bin/fecimg/?202401319619285431"
         },
         {
           "donorName": "RAGHAVAN, PRABHAKAR",
           "donorInfo": "ENGINEER",
           "amount": 3300.0,
-          "date": "2024-03-15",
-          "fecUrl": "https://docquery.fec.gov/cgi-bin/fecimg/?202407159653745501"
+          "date": "2023-12-07",
+          "fecUrl": "https://docquery.fec.gov/cgi-bin/fecimg/?202401319619285431"
+        }
+      ]
+    },
+    {
+      "recipientName": "BOB CASEY FOR SENATE INC",
+      "recipientParty": "DEMOCRATIC PARTY",
+      "isExtreme": false,
+      "totalAmount": 9900.0,
+      "donorCount": 2,
+      "employer": "GOOGLE",
+      "timeframe": "over 255 days",
+      "contributions": [
+        {
+          "donorName": "RAGHAVAN, PRABHAKAR",
+          "donorInfo": "ENGINEER",
+          "amount": 3300.0,
+          "date": "2024-07-26",
+          "fecUrl": "https://docquery.fec.gov/cgi-bin/fecimg/?202506189762224476"
+        },
+        {
+          "donorName": "RAGHAVAN, PRABHAKAR",
+          "donorInfo": "ENGINEER",
+          "amount": 3300.0,
+          "date": "2024-07-26",
+          "fecUrl": "https://docquery.fec.gov/cgi-bin/fecimg/?202506189762224476"
+        },
+        {
+          "donorName": "FITZPATRICK, JENNIFER",
+          "donorInfo": "VICE PRESIDENT",
+          "amount": 3300.0,
+          "date": "2023-11-14",
+          "fecUrl": "https://docquery.fec.gov/cgi-bin/fecimg/?202407159660896131"
         }
       ]
     },
@@ -1344,10 +1679,10 @@
       "recipientName": "ANGUS KING FOR U.S. SENATE CAMPAIGN",
       "recipientParty": "INDEPENDENT",
       "isExtreme": false,
-      "totalAmount": 9600.0,
+      "totalAmount": 9900.0,
       "donorCount": 2,
       "employer": "GOOGLE",
-      "timeframe": "over 88 days",
+      "timeframe": "over 392 days",
       "contributions": [
         {
           "donorName": "RAGHAVAN, PRABHAKAR",
@@ -1364,57 +1699,75 @@
           "fecUrl": "https://docquery.fec.gov/cgi-bin/fecimg/?202501279747906924"
         },
         {
-          "donorName": "KURIAN, THOMAS",
-          "donorInfo": "EXECUTIVE",
-          "amount": 1500.0,
-          "date": "2024-04-29",
-          "fecUrl": "https://docquery.fec.gov/cgi-bin/fecimg/?202405309648802814"
-        },
-        {
-          "donorName": "KURIAN, THOMAS",
-          "donorInfo": "EXECUTIVE",
-          "amount": 1500.0,
-          "date": "2024-04-29",
-          "fecUrl": "https://docquery.fec.gov/cgi-bin/fecimg/?202405309648802814"
+          "donorName": "DEAN, JEFF",
+          "donorInfo": "SENIOR VICE PRESIDENT",
+          "amount": 3300.0,
+          "date": "2023-06-30",
+          "fecUrl": "https://docquery.fec.gov/cgi-bin/fecimg/?202404129627601191"
         }
       ]
     },
     {
-      "recipientName": "ALASKANS FOR DAN SULLIVAN",
-      "recipientParty": "REPUBLICAN PARTY",
+      "recipientName": "ROSEN FOR NEVADA",
+      "recipientParty": "DEMOCRATIC PARTY",
       "isExtreme": false,
-      "totalAmount": 9600.0,
+      "totalAmount": 9900.0,
       "donorCount": 2,
       "employer": "GOOGLE",
-      "timeframe": "over 250 days",
+      "timeframe": "over 110 days",
       "contributions": [
         {
-          "donorName": "KURIAN, THOMAS",
-          "donorInfo": "EXECUTIVE",
-          "amount": 1500.0,
-          "date": "2024-04-25",
-          "fecUrl": "https://docquery.fec.gov/cgi-bin/fecimg/?202407159653444089"
-        },
-        {
-          "donorName": "KURIAN, THOMAS",
-          "donorInfo": "EXECUTIVE",
-          "amount": 1500.0,
-          "date": "2024-04-25",
-          "fecUrl": "https://docquery.fec.gov/cgi-bin/fecimg/?202407159653444089"
-        },
-        {
-          "donorName": "RAGHAVAN, PRABHAKAR",
-          "donorInfo": "ENGINEER",
+          "donorName": "FITZPATRICK, JENNIFER",
+          "donorInfo": "VICE PRESIDENT",
           "amount": 3300.0,
-          "date": "2023-08-19",
-          "fecUrl": "https://docquery.fec.gov/cgi-bin/fecimg/?202310139597569162"
+          "date": "2023-10-31",
+          "fecUrl": "https://docquery.fec.gov/cgi-bin/fecimg/?202404159632729959"
         },
         {
-          "donorName": "RAGHAVAN, PRABHAKAR",
-          "donorInfo": "ENGINEER",
+          "donorName": "TWOHILL, LORRAINE",
+          "donorInfo": "VICE PRESIDENT",
           "amount": 3300.0,
-          "date": "2023-08-19",
-          "fecUrl": "https://docquery.fec.gov/cgi-bin/fecimg/?202310139597569162"
+          "date": "2023-07-13",
+          "fecUrl": "https://docquery.fec.gov/cgi-bin/fecimg/?202404159632695844"
+        },
+        {
+          "donorName": "TWOHILL, LORRAINE",
+          "donorInfo": "VICE PRESIDENT",
+          "amount": 3300.0,
+          "date": "2023-07-13",
+          "fecUrl": "https://docquery.fec.gov/cgi-bin/fecimg/?202404159632695844"
+        }
+      ]
+    },
+    {
+      "recipientName": "BRIAN FITZPATRICK FOR ALL OF US",
+      "recipientParty": "REPUBLICAN PARTY",
+      "isExtreme": false,
+      "totalAmount": 9900.0,
+      "donorCount": 2,
+      "employer": "GOOGLE",
+      "timeframe": "over 286 days",
+      "contributions": [
+        {
+          "donorName": "FITZPATRICK, JENNIFER",
+          "donorInfo": "SVP",
+          "amount": 3300.0,
+          "date": "2024-04-24",
+          "fecUrl": "https://docquery.fec.gov/cgi-bin/fecimg/?202410159688100880"
+        },
+        {
+          "donorName": "TWOHILL, LORRAINE",
+          "donorInfo": "SVP GLOBAL MARKETING",
+          "amount": 3300.0,
+          "date": "2023-07-13",
+          "fecUrl": "https://docquery.fec.gov/cgi-bin/fecimg/?202410159687805809"
+        },
+        {
+          "donorName": "TWOHILL, LORRAINE",
+          "donorInfo": "SVP GLOBAL MARKETING",
+          "amount": 3300.0,
+          "date": "2023-07-13",
+          "fecUrl": "https://docquery.fec.gov/cgi-bin/fecimg/?202410159687805809"
         }
       ]
     },
@@ -1422,66 +1775,17 @@
       "recipientName": "WAGING PEACE",
       "recipientParty": "REPUBLICAN PARTY",
       "isExtreme": false,
-      "totalAmount": 8800.0,
+      "totalAmount": 9900.0,
       "donorCount": 3,
       "employer": "GOOGLE",
-      "timeframe": "over 259 days",
+      "timeframe": "over 260 days",
       "contributions": [
         {
-          "donorName": "KURIAN, THOMAS",
-          "donorInfo": "ENGINEER",
-          "amount": -400.0,
+          "donorName": "FITZPATRICK, JENNIFER",
+          "donorInfo": "SVP",
+          "amount": -3300.0,
           "date": "2024-02-29",
-          "fecUrl": "https://docquery.fec.gov/cgi-bin/fecimg/?202404159627967481"
-        },
-        {
-          "donorName": "KURIAN, THOMAS",
-          "donorInfo": "ENGINEER",
-          "amount": -400.0,
-          "date": "2024-02-29",
-          "fecUrl": "https://docquery.fec.gov/cgi-bin/fecimg/?202404159627967481"
-        },
-        {
-          "donorName": "KURIAN, THOMAS",
-          "donorInfo": "ENGINEER",
-          "amount": 400.0,
-          "date": "2023-09-05",
-          "fecUrl": "https://docquery.fec.gov/cgi-bin/fecimg/?202310139597621010"
-        },
-        {
-          "donorName": "KURIAN, THOMAS",
-          "donorInfo": "ENGINEER",
-          "amount": -400.0,
-          "date": "2023-09-05",
-          "fecUrl": "https://docquery.fec.gov/cgi-bin/fecimg/?202310139597621010"
-        },
-        {
-          "donorName": "KURIAN, THOMAS",
-          "donorInfo": "ENGINEER",
-          "amount": 400.0,
-          "date": "2023-09-05",
-          "fecUrl": "https://docquery.fec.gov/cgi-bin/fecimg/?202310139597621010"
-        },
-        {
-          "donorName": "KURIAN, THOMAS",
-          "donorInfo": "ENGINEER",
-          "amount": -400.0,
-          "date": "2023-09-05",
-          "fecUrl": "https://docquery.fec.gov/cgi-bin/fecimg/?202310139597621010"
-        },
-        {
-          "donorName": "KURIAN, THOMAS",
-          "donorInfo": "ENGINEER",
-          "amount": 1500.0,
-          "date": "2023-08-27",
-          "fecUrl": "https://docquery.fec.gov/cgi-bin/fecimg/?202310139597621010"
-        },
-        {
-          "donorName": "KURIAN, THOMAS",
-          "donorInfo": "ENGINEER",
-          "amount": 1500.0,
-          "date": "2023-08-27",
-          "fecUrl": "https://docquery.fec.gov/cgi-bin/fecimg/?202310139597621010"
+          "fecUrl": "https://docquery.fec.gov/cgi-bin/fecimg/?202404159627967475"
         },
         {
           "donorName": "OSTERLOH, RICK",
@@ -1491,11 +1795,32 @@
           "fecUrl": "https://docquery.fec.gov/cgi-bin/fecimg/?202308259596777025"
         },
         {
+          "donorName": "FITZPATRICK, JENNIFER",
+          "donorInfo": "SVP",
+          "amount": 3300.0,
+          "date": "2023-06-20",
+          "fecUrl": "https://docquery.fec.gov/cgi-bin/fecimg/?202308259596777015"
+        },
+        {
+          "donorName": "FITZPATRICK, JENNIFER",
+          "donorInfo": "SVP",
+          "amount": -3300.0,
+          "date": "2023-06-20",
+          "fecUrl": "https://docquery.fec.gov/cgi-bin/fecimg/?202308259596777014"
+        },
+        {
           "donorName": "MOHAN, NEAL",
           "donorInfo": "YOUTUBE",
           "amount": 3300.0,
           "date": "2023-06-15",
           "fecUrl": "https://docquery.fec.gov/cgi-bin/fecimg/?202308259596777019"
+        },
+        {
+          "donorName": "FITZPATRICK, JENNIFER",
+          "donorInfo": "SVP",
+          "amount": 6600.0,
+          "date": "2023-06-14",
+          "fecUrl": "https://docquery.fec.gov/cgi-bin/fecimg/?202308259596777014"
         }
       ]
     },
@@ -1503,11 +1828,43 @@
       "recipientName": "FRIENDS OF MARIA",
       "recipientParty": "DEMOCRATIC PARTY",
       "isExtreme": false,
-      "totalAmount": 2032.7,
+      "totalAmount": 6600.0,
       "donorCount": 2,
+      "employer": "GOOGLE",
+      "timeframe": "over 272 days",
+      "contributions": [
+        {
+          "donorName": "FITZPATRICK, JENNIFER",
+          "donorInfo": "SENIOR VICE PRESIDENT",
+          "amount": 3300.0,
+          "date": "2024-03-28",
+          "fecUrl": "https://docquery.fec.gov/cgi-bin/fecimg/?202404159632874240"
+        },
+        {
+          "donorName": "DEAN, JEFF",
+          "donorInfo": "AI DIVISION LEAD",
+          "amount": 3300.0,
+          "date": "2023-06-30",
+          "fecUrl": "https://docquery.fec.gov/cgi-bin/fecimg/?202401319608011830"
+        }
+      ]
+    },
+    {
+      "recipientName": "FRIENDS OF MARIA",
+      "recipientParty": "DEMOCRATIC PARTY",
+      "isExtreme": false,
+      "totalAmount": 4614.15,
+      "donorCount": 3,
       "employer": "MICROSOFT CORPORATION",
       "timeframe": "in the last week",
       "contributions": [
+        {
+          "donorName": "COLEMAN, AMY",
+          "donorInfo": "HUMAN RESOURCES",
+          "amount": 2581.45,
+          "date": "2023-12-26",
+          "fecUrl": "https://docquery.fec.gov/cgi-bin/fecimg/?202401319608066826"
+        },
         {
           "donorName": "HOOD, AMY",
           "donorInfo": "FINANCE",
@@ -1521,6 +1878,38 @@
           "amount": 1032.7,
           "date": "2023-12-22",
           "fecUrl": "https://docquery.fec.gov/cgi-bin/fecimg/?202401319608067589"
+        }
+      ]
+    },
+    {
+      "recipientName": "FRIENDS OF MARK WARNER",
+      "recipientParty": "DEMOCRATIC PARTY",
+      "isExtreme": false,
+      "totalAmount": 1400.0,
+      "donorCount": 2,
+      "employer": "MICROSOFT",
+      "timeframe": "in the last 24 hours",
+      "contributions": [
+        {
+          "donorName": "PALMER, JONATHAN M.",
+          "donorInfo": "ATTORNEY",
+          "amount": 200.0,
+          "date": "2025-03-17",
+          "fecUrl": "https://docquery.fec.gov/cgi-bin/fecimg/?202507159763256715"
+        },
+        {
+          "donorName": "SMITH, BRADFORD",
+          "donorInfo": "VICE CHAIR",
+          "amount": 600.0,
+          "date": "2025-03-17",
+          "fecUrl": "https://docquery.fec.gov/cgi-bin/fecimg/?202507159763256714"
+        },
+        {
+          "donorName": "SMITH, BRADFORD",
+          "donorInfo": "VICE CHAIR",
+          "amount": 600.0,
+          "date": "2025-03-17",
+          "fecUrl": "https://docquery.fec.gov/cgi-bin/fecimg/?202507159763256675"
         }
       ]
     }
