@@ -35,6 +35,7 @@ class ClusterEvent:
     isExtreme: bool
     totalAmount: float
     donorCount: int
+    employer: str
     timeframe: str
     contributions: List[FormattedContribution]
 
@@ -106,7 +107,7 @@ def format_cluster_data(raw_individual_data: List[dict]) -> List[dict]:
         for _, row in group.iterrows():
             contributions.append(FormattedContribution(
                 donorName=row['contributor_name'],
-                donorInfo=f"{row['contributor_employer']}, {row.get('contributor_occupation', 'N/A')}",
+                donorInfo=row.get('contributor_occupation', 'N/A'),
                 amount=row['contribution_receipt_amount'],
                 date=row['contribution_receipt_date'].strftime('%Y-%m-%d'),
                 fecUrl=row['pdf_url']
@@ -122,6 +123,7 @@ def format_cluster_data(raw_individual_data: List[dict]) -> List[dict]:
             isExtreme=False, # Placeholder for future analysis
             totalAmount=group['contribution_receipt_amount'].sum(),
             donorCount=group['normalized_name'].nunique(),
+            employer=employer,
             timeframe=timeframe,
             contributions=sorted([asdict(c) for c in contributions], key=lambda x: x['date'], reverse=True)
         )

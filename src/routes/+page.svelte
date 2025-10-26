@@ -5,6 +5,7 @@
 
     // Reactive variables to hold the data for the page
     let clusterEvents = [];
+    $: filteredClusterEvents = clusterEvents.filter(item => item.donorCount >= 3);
     let pacContributions = [];
     let lastUpdated = new Date().toLocaleString();
     let expandedItems = {}; // Tracks expanded state for all collapsible sections
@@ -143,8 +144,8 @@
 
         <!-- Executive Clusters (Individual Contributions) -->
         <div id="feed-container-clusters" class="mt-6 space-y-6 hidden">
-            {#if clusterEvents.length > 0}
-                {#each clusterEvents as item, i}
+            {#if filteredClusterEvents.length > 0}
+                {#each filteredClusterEvents as item, i}
                     {@const key = `cluster-${i}`}
                     <div class="bg-orange-50 p-4 sm:p-5 rounded-xl shadow-lg border-2 border-orange-200">
                         <div class="flex items-start space-x-4">
@@ -152,7 +153,7 @@
                             <div class="flex-1">
                                 <p class="text-sm font-semibold uppercase text-orange-600">Executive Cluster Detected</p>
                                 <h3 class="text-lg font-bold mt-1">
-                                    <span class="text-gray-900">{formatCurrency(item.totalAmount)}</span> from {item.donorCount} execs
+                                    <span class="text-gray-900">{formatCurrency(item.totalAmount)}</span> from {item.donorCount} {item.employer} execs
                                 </h3>
                                 <p class="text-gray-600 mt-1">
                                     to <span class="font-semibold" style="color: {getPartyColor(item.recipientParty)} !important;">{item.recipientName}</span>
@@ -187,7 +188,7 @@
                     </div>
                 {/each}
             {:else}
-                <p class="text-center text-gray-500 pt-8">No executive clusters found in the current data.</p>
+                <p class="text-center text-gray-500 pt-8">No executive clusters with 3 or more donors found in the current data.</p>
             {/if}
         </div>
 
