@@ -137,7 +137,7 @@
                     🏢 Corporate PACs
                 </button>
                 <button id="tab-clusters" on:click={showClusters} class="text-gray-500 hover:text-gray-700 hover:border-gray-300 whitespace-nowrap py-3 px-1 border-b-2 font-medium text-sm">
-                    ⚡️ Executive Clusters
+                    👥 Executive Clusters
                 </button>
             </nav>
         </div>
@@ -149,9 +149,9 @@
                     {@const key = `cluster-${i}`}
                     <div class="bg-orange-50 p-4 sm:p-5 rounded-xl shadow-lg border-2 border-orange-200">
                         <div class="flex items-start space-x-4">
-                            <div class="text-2xl pt-2">⚡️</div>
+                            <div class="text-2xl pt-2">👥</div>
                             <div class="flex-1">
-                                <p class="text-sm font-semibold uppercase text-orange-600">Executive Cluster Detected</p>
+                                <p class="text-sm font-semibold uppercase text-orange-600">Executive Cluster</p>
                                 <h3 class="text-lg font-bold mt-1">
                                     <span class="text-gray-900">{formatCurrency(item.totalAmount)}</span> from {item.donorCount} {item.employer} execs
                                 </h3>
