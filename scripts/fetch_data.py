@@ -29,17 +29,6 @@ PAC_IDS = {
     "Microsoft": "C00125997"
 }
 
-# A list of tech executives to track.
-CONTRIBUTORS_TO_TRACK = [
-    Contributor(name="Sundar Pichai", employer="Google"),
-    Contributor(name="Kent Walker", employer="Google"),
-    Contributor(name="Thomas Kurian", employer="Google"),
-    Contributor(name="Mark Zuckerberg", employer="Meta"),
-    Contributor(name="Sheryl Sandberg", employer="Meta"),
-    Contributor(name="Satya Nadella", employer="Microsoft"),
-    Contributor(name="Brad Smith", employer="Microsoft"),
-]
-
 # --- Dataclasses ---
 
 @dataclass
@@ -47,6 +36,69 @@ class Contributor:
     """Represents a political contributor to search for."""
     name: str
     employer: str
+
+# A list of tech executives to track.
+CONTRIBUTORS_TO_TRACK = [
+    Contributor(
+        name="Sundar Pichai",
+        employer="Google"),
+    Contributor(
+        name="Kent Walker",
+        employer="Google"),
+    Contributor(
+        name="Thomas Kurian",
+        employer="Google"),
+    Contributor(
+        name="Jen Fitzpatrick",
+        employer="Google"),
+    Contributor(
+        name="Rick Osterloh",
+        employer="Google"),
+    Contributor(
+        name="Prabhakar Raghavan",
+        employer="Google"),
+    Contributor(
+        name="Lorraine Twohill",
+        employer="Google"),
+    Contributor(
+        name="Corey DuBrowa",
+        employer="Google"),
+    Contributor(
+        name="Neal Mohan",
+        employer="Google"),
+    Contributor(
+        name="Anat Ashkenazi",
+        employer="Google"),
+    Contributor(
+        name="Jeff Dean",
+        employer="Google"),
+    Contributor(
+        name="Ruth Porat",
+        employer="Google"),
+    Contributor(name="Mark Zuckerberg", employer="Meta"), # Founder, Chairman & CEO
+    Contributor(name="Janelle Gale", employer="Meta"), # VP, HR
+    Contributor(name="Joel Kaplan", employer="Meta"), # President, Global Affairs
+    Contributor(name="Ahmad Al-Dahle", employer="Meta"), # VP & Head of GenAI
+    Contributor(name="Javier Olivan", employer="Meta"), # COO
+    Contributor(name="Susan Li", employer="Meta"), # CFO
+    Contributor(name="David Wehner", employer="Meta"), # Chief Strategy Officer
+    Contributor(name="Jennifer Newstead", employer="Meta"), # Chief Legal Officer
+    Contributor(name="Chris Cox", employer="Meta"), # CPO
+    Contributor(name="Andrew Bosworth", employer="Meta"), # CTO
+    Contributor(name="Satya Nadella", employer="Microsoft"), # Chairman & CEO
+    Contributor(name="Jon Palmer", employer="Microsoft"), # Chief Legal Officer
+    Contributor(name="Maitha Alsuwaidi", employer="Microsoft"), # Chief Strategy & Business Officer
+    Contributor(name="Asfar Rizvi", employer="Microsoft"), # Executive Leadership Committee - Nominated Member
+    Contributor(name="Amy Coleman", employer="Microsoft"), # Chief People Officer
+    Contributor(name="Carolina Dybeck Happe", employer="Microsoft"), # COO
+    Contributor(name="Mustafa Suleyman", employer="Microsoft"), # CEO, Microsoft AI
+    Contributor(name="Samer Abu-Ltaif", employer="Microsoft"), # President, Microsoft CEMA
+    Contributor(name="Amy Hood", employer="Microsoft"), # EVP & CFO
+    Contributor(name="Judson Althoff", employer="Microsoft"), # CEO, Microsoft Commercial Business
+    Contributor(name="Brad Smith", employer="Microsoft"), # President & Vice Chair
+    Contributor(name="Charlie Bell", employer="Microsoft"), # EVP, Security, Compliance, Identity & Management
+    Contributor(name="Kevin Scott", employer="Microsoft"), # CTO & EVP, Technology
+]
 
 # --- API Fetching Class ---
 
