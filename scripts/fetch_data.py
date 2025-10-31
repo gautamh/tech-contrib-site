@@ -234,13 +234,20 @@ def main():
     for contributor in CONTRIBUTORS_TO_TRACK:
         contributions = analyzer.get_contributor_data(contributor, start_date, end_date)
         individual_contributions.extend(contributions)
+
+    # Deduplicate contributions based on transaction_id
+    unique_contributions = {}
+    for contribution in individual_contributions:
+        unique_contributions[contribution['transaction_id']] = contribution
+    
+    deduplicated_contributions = list(unique_contributions.values())
     
     output_path = os.path.join(os.path.dirname(__file__), '..', 'static', 'data', 'contributions.json')
     os.makedirs(os.path.dirname(output_path), exist_ok=True)
 
     with open(output_path, 'w') as f:
-        json.dump(individual_contributions, f, indent=2)
-    print(f"Successfully wrote {len(individual_contributions)} individual contributions to {output_path}")
+        json.dump(deduplicated_contributions, f, indent=2)
+    print(f"Successfully wrote {len(deduplicated_contributions)} individual contributions to {output_path}")
 
     # --- Fetch and save PAC expenditures ---
     pac_expenditures = analyzer.get_pac_expenditures(list(PAC_IDS.values()), start_date, end_date)

@@ -23,4 +23,5 @@ deno.lock
 Thumbs.db
 
 # Python
-scripts/__pycache__/
+.venv/
+__pycache__/
