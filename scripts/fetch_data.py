@@ -25,8 +25,8 @@ BASE_URL = "https://api.open.fec.gov/v1/"
 # The keys are for reference; the script uses the committee IDs.
 PAC_IDS = {
     "Google": "C00428623",
-    "Meta": "C00786883",
-    "Microsoft": "C00125997"
+    "Meta": "C00502906",
+    "Microsoft": "C00227546"
 }
 
 # --- Dataclasses ---
@@ -85,6 +85,7 @@ CONTRIBUTORS_TO_TRACK = [
     Contributor(name="Jennifer Newstead", employer="Meta"), # Chief Legal Officer
     Contributor(name="Chris Cox", employer="Meta"), # CPO
     Contributor(name="Andrew Bosworth", employer="Meta"), # CTO
+    Contributor(name="MIKE SCHROEPFER", employer="Meta"), # Senior Fellow
     Contributor(name="Satya Nadella", employer="Microsoft"), # Chairman & CEO
     Contributor(name="Jon Palmer", employer="Microsoft"), # Chief Legal Officer
     Contributor(name="Maitha Alsuwaidi", employer="Microsoft"), # Chief Strategy & Business Officer
