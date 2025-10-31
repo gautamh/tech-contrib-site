@@ -29,13 +29,52 @@
           "amount": 50000.0,
           "date": "2024-05-07",
           "fecUrl": "https://docquery.fec.gov/cgi-bin/fecimg/?202407159661041939"
+        }
+      ]
+    },
+    {
+      "recipientName": "DNC SERVICES CORP / DEMOCRATIC NATIONAL COMMITTEE",
+      "recipientParty": "DEMOCRATIC PARTY",
+      "isExtreme": false,
+      "totalAmount": 454290.0,
+      "donorCount": 2,
+      "employer": "MICROSOFT",
+      "timeframe": "over 135 days",
+      "contributions": [
+        {
+          "donorName": "SCOTT, JAMES KEVIN",
+          "donorInfo": "CTO",
+          "amount": 41290.0,
+          "date": "2024-09-19",
+          "fecUrl": "https://docquery.fec.gov/cgi-bin/fecimg/?202506049761859522"
         },
         {
-          "donorName": "PALMER, JONATHAN",
-          "donorInfo": "ATTORNEY",
-          "amount": 5000.0,
-          "date": "2023-08-09",
-          "fecUrl": "https://docquery.fec.gov/cgi-bin/fecimg/?202310159598409053"
+          "donorName": "SCOTT, JAMES KEVIN",
+          "donorInfo": "CTO",
+          "amount": 123900.0,
+          "date": "2024-09-19",
+          "fecUrl": "https://docquery.fec.gov/cgi-bin/fecimg/?202412059739446939"
+        },
+        {
+          "donorName": "SCOTT, JAMES KEVIN",
+          "donorInfo": "CTO",
+          "amount": 123900.0,
+          "date": "2024-09-19",
+          "fecUrl": "https://docquery.fec.gov/cgi-bin/fecimg/?202412059739446268"
+        },
+        {
+          "donorName": "SCOTT, JAMES KEVIN",
+          "donorInfo": "CTO",
+          "amount": 123900.0,
+          "date": "2024-09-19",
+          "fecUrl": "https://docquery.fec.gov/cgi-bin/fecimg/?202412059739446235"
+        },
+        {
+          "donorName": "ALTHOFF, JUDSON",
+          "donorInfo": "EXECUTIVE",
+          "amount": 41300.0,
+          "date": "2024-05-07",
+          "fecUrl": "https://docquery.fec.gov/cgi-bin/fecimg/?202406209652373475"
         }
       ]
     },
@@ -92,22 +131,8 @@
       "totalAmount": 47800.0,
       "donorCount": 6,
       "employer": "GOOGLE",
-      "timeframe": "over 810 days",
+      "timeframe": "over 795 days",
       "contributions": [
-        {
-          "donorName": "WALKER, KENT",
-          "donorInfo": "PRESIDENT",
-          "amount": 3500.0,
-          "date": "2025-05-31",
-          "fecUrl": "https://docquery.fec.gov/cgi-bin/fecimg/?202507159763129839"
-        },
-        {
-          "donorName": "WALKER, KENT",
-          "donorInfo": "PRESIDENT",
-          "amount": 3500.0,
-          "date": "2025-05-31",
-          "fecUrl": "https://docquery.fec.gov/cgi-bin/fecimg/?202507159763129832"
-        },
         {
           "donorName": "RAGHAVAN, PRABHAKAR",
           "donorInfo": "ENGINEER",
@@ -694,7 +719,7 @@
       ]
     },
     {
-      "recipientName": "HARRIS FOR PRESIDENT",
+      "recipientName": "TED LIEU FOR CONGRESS",
       "recipientParty": "DEMOCRATIC PARTY",
       "isExtreme": false,
       "totalAmount": 11647.0,
@@ -831,60 +856,67 @@
       "totalAmount": 10100.0,
       "donorCount": 3,
       "employer": "GOOGLE",
-      "timeframe": "over 650 days",
+      "timeframe": "over 520 days",
       "contributions": [
         {
-          "donorName": "WALKER, KENT",
-          "donorInfo": "PRESIDENT",
+          "donorName": "RAGHAVAN, PRABHAKAR",
+          "donorInfo": "ENGINEER",
           "amount": 3500.0,
-          "date": "2025-05-31",
-          "fecUrl": "https://docquery.fec.gov/cgi-bin/fecimg/?202507159763337653"
-        },
-        {
-          "donorName": "FITZPATRICK, JENNIFER",
-          "donorInfo": "SVP",
-          "amount": 3300.0,
-          "date": "2024-05-28",
-          "fecUrl": "https://docquery.fec.gov/cgi-bin/fecimg/?202407159660073407"
+          "date": "2025-05-21",
+          "fecUrl": "https://docquery.fec.gov/cgi-bin/fecimg/?202507159763506912"
         },
         {
           "donorName": "RAGHAVAN, PRABHAKAR",
           "donorInfo": "ENGINEER",
-          "amount": 3300.0,
-          "date": "2023-08-20",
-          "fecUrl": "https://docquery.fec.gov/cgi-bin/fecimg/?202401029599928152"
-        }
-      ]
-    },
-    {
-      "recipientName": "DARRELL ISSA FOR CONGRESS",
-      "recipientParty": "REPUBLICAN PARTY",
-      "isExtreme": false,
-      "totalAmount": 10100.0,
-      "donorCount": 3,
-      "employer": "GOOGLE",
-      "timeframe": "over 564 days",
-      "contributions": [
-        {
-          "donorName": "WALKER, KENT",
-          "donorInfo": "PRESIDENT",
           "amount": 3500.0,
-          "date": "2025-05-31",
-          "fecUrl": "https://docquery.fec.gov/cgi-bin/fecimg/?202507159763154071"
+          "date": "2025-05-21",
+          "fecUrl": "https://docquery.fec.gov/cgi-bin/fecimg/?202507159763506911"
+        },
+        {
+          "donorName": "DEAN, JEFF",
+          "donorInfo": "CHIEF SCIENTIST",
+          "amount": 3300.0,
+          "date": "2024-05-06",
+          "fecUrl": "https://docquery.fec.gov/cgi-bin/fecimg/?202410159689243300"
         },
         {
           "donorName": "RAGHAVAN, PRABHAKAR",
           "donorInfo": "ENGINEER",
           "amount": 3300.0,
           "date": "2023-12-18",
-          "fecUrl": "https://docquery.fec.gov/cgi-bin/fecimg/?202401299600575319"
+          "fecUrl": "https://docquery.fec.gov/cgi-bin/fecimg/?202401319619594623"
+        }
+      ]
+    },
+    {
+      "recipientName": "NEW DEMOCRAT COALITION ACTION FUND",
+      "recipientParty": "",
+      "isExtreme": false,
+      "totalAmount": 13300.0,
+      "donorCount": 3,
+      "employer": "GOOGLE",
+      "timeframe": "over 262 days",
+      "contributions": [
+        {
+          "donorName": "DEAN, JEFF",
+          "donorInfo": "CHIEF SCIENTIST",
+          "amount": 5000.0,
+          "date": "2024-05-07",
+          "fecUrl": "https://docquery.fec.gov/cgi-bin/fecimg/?202406179649033790"
         },
         {
           "donorName": "FITZPATRICK, JENNIFER",
           "donorInfo": "SVP",
+          "amount": 5000.0,
+          "date": "2024-04-24",
+          "fecUrl": "https://docquery.fec.gov/cgi-bin/fecimg/?202405209646113915"
+        },
+        {
+          "donorName": "RAGHAVAN, PRABHAKAR",
+          "donorInfo": "ENGINEER",
           "amount": 3300.0,
-          "date": "2023-11-14",
-          "fecUrl": "https://docquery.fec.gov/cgi-bin/fecimg/?202401299600575282"
+          "date": "2023-08-19",
+          "fecUrl": "https://docquery.fec.gov/cgi-bin/fecimg/?202309189597071249"
         }
       ]
     },
@@ -1416,13 +1448,38 @@
       ]
     },
     {
+      "recipientName": "DARRELL ISSA FOR CONGRESS",
+      "recipientParty": "REPUBLICAN PARTY",
+      "isExtreme": false,
+      "totalAmount": 6600.0,
+      "donorCount": 2,
+      "employer": "GOOGLE",
+      "timeframe": "over 34 days",
+      "contributions": [
+        {
+          "donorName": "RAGHAVAN, PRABHAKAR",
+          "donorInfo": "ENGINEER",
+          "amount": 3300.0,
+          "date": "2023-12-18",
+          "fecUrl": "https://docquery.fec.gov/cgi-bin/fecimg/?202401299600575319"
+        },
+        {
+          "donorName": "FITZPATRICK, JENNIFER",
+          "donorInfo": "SVP",
+          "amount": 3300.0,
+          "date": "2023-11-14",
+          "fecUrl": "https://docquery.fec.gov/cgi-bin/fecimg/?202401299600575282"
+        }
+      ]
+    },
+    {
       "recipientName": "FRIENDS OF MARIA",
       "recipientParty": "DEMOCRATIC PARTY",
       "isExtreme": false,
-      "totalAmount": 4614.15,
-      "donorCount": 3,
+      "totalAmount": 3581.45,
+      "donorCount": 2,
       "employer": "MICROSOFT CORPORATION",
-      "timeframe": "in the last week",
+      "timeframe": "in the last 24 hours",
       "contributions": [
         {
           "donorName": "COLEMAN, AMY",
@@ -1437,13 +1494,6 @@
           "amount": 1000.0,
           "date": "2023-12-26",
           "fecUrl": "https://docquery.fec.gov/cgi-bin/fecimg/?202401319608067183"
-        },
-        {
-          "donorName": "PALMER, JONATHAN",
-          "donorInfo": "ATTORNEY",
-          "amount": 1032.7,
-          "date": "2023-12-22",
-          "fecUrl": "https://docquery.fec.gov/cgi-bin/fecimg/?202401319608067589"
         }
       ]
     },
