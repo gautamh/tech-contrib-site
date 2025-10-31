@@ -230,20 +230,27 @@ def main():
     end_date="12/31/2025"
     
     # --- Fetch and save individual contributions ---
-    individual_contributions = []
-    for contributor in CONTRIBUTORS_TO_TRACK:
-        contributions = analyzer.get_contributor_data(contributor, start_date, end_date)
-        individual_contributions.extend(contributions)
-
-    # Deduplicate contributions based on transaction_id
-    unique_contributions = {}
-    for contribution in individual_contributions:
-        unique_contributions[contribution['transaction_id']] = contribution
-    
-    deduplicated_contributions = list(unique_contributions.values())
-    
     output_path = os.path.join(os.path.dirname(__file__), '..', 'static', 'data', 'contributions.json')
     os.makedirs(os.path.dirname(output_path), exist_ok=True)
+
+    # Load existing contributions
+    existing_contributions = {}
+    if os.path.exists(output_path):
+        with open(output_path, 'r') as f:
+            try:
+                data = json.load(f)
+                for item in data:
+                    existing_contributions[item['transaction_id']] = item
+            except json.JSONDecodeError:
+                print("Could not decode existing contributions file. Starting fresh.")
+
+    # Fetch new contributions
+    for contributor in CONTRIBUTORS_TO_TRACK:
+        contributions = analyzer.get_contributor_data(contributor, start_date, end_date)
+        for contribution in contributions:
+            existing_contributions[contribution['transaction_id']] = contribution
+    
+    deduplicated_contributions = list(existing_contributions.values())
 
     with open(output_path, 'w') as f:
         json.dump(deduplicated_contributions, f, indent=2)

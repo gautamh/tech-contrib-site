@@ -1,5 +1,6 @@
 import pytest
-from unittest.mock import MagicMock, patch
+import json
+from unittest.mock import MagicMock, patch, mock_open
 from scripts.fetch_data import FECContributionAnalyzer, Contributor, main
 
 @pytest.fixture
@@ -57,19 +58,27 @@ def test_get_pac_expenditures_handles_api_error(analyzer, mock_requests_get):
 
 @patch("scripts.fetch_data.FECContributionAnalyzer")
 @patch("scripts.fetch_data.os.getenv")
-@patch("scripts.fetch_data.open")
+@patch("scripts.fetch_data.os.path.exists")
+@patch("builtins.open", new_callable=mock_open)
 @patch("scripts.fetch_data.json.dump")
-def test_main_deduplicates_contributions(mock_json_dump, mock_open, mock_getenv, MockAnalyzer):
-    """Tests that the main function correctly deduplicates contributions."""
+def test_main_incremental_update(mock_json_dump, mock_file, mock_exists, mock_getenv, MockAnalyzer):
+    """Tests that the main function correctly performs an incremental update."""
     # Arrange
     mock_getenv.return_value = "TEST_KEY"
-    
-    # Mock the analyzer to return duplicate contributions
+    mock_exists.return_value = True
+
+    # Mock existing contributions
+    existing_data = [
+        {"transaction_id": "A", "contributor_name": "John Doe", "amount": 100},
+        {"transaction_id": "C", "contributor_name": "Alice"}
+    ]
+    mock_file.return_value.read.return_value = json.dumps(existing_data)
+
+    # Mock new contributions (with one overlapping)
     mock_analyzer_instance = MockAnalyzer.return_value
     mock_analyzer_instance.get_contributor_data.return_value = [
-        {"transaction_id": "A", "contributor_name": "John Doe"},
-        {"transaction_id": "B", "contributor_name": "Jane Smith"},
-        {"transaction_id": "A", "contributor_name": "John Doe"} # Duplicate
+        {"transaction_id": "A", "contributor_name": "John Doe", "amount": 200}, # Updated
+        {"transaction_id": "B", "contributor_name": "Jane Smith"} # New
     ]
     mock_analyzer_instance.get_pac_expenditures.return_value = []
 
@@ -77,9 +86,12 @@ def test_main_deduplicates_contributions(mock_json_dump, mock_open, mock_getenv,
     main()
 
     # Assert
-    # Check that the data written to the file is deduplicated
     assert mock_json_dump.call_count == 2
     written_data = mock_json_dump.call_args_list[0][0][0]
-    assert len(written_data) == 2
-    assert written_data[0]["transaction_id"] == "A"
-    assert written_data[1]["transaction_id"] == "B"
+    assert len(written_data) == 3
+
+    # Check that the data is correctly merged and updated
+    written_map = {item['transaction_id']: item for item in written_data}
+    assert written_map["A"]["amount"] == 200
+    assert written_map["B"]["contributor_name"] == "Jane Smith"
+    assert written_map["C"]["contributor_name"] == "Alice"
