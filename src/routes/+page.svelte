@@ -30,6 +30,15 @@
 
     const formatCurrency = (amount) => new Intl.NumberFormat('en-US', { style: 'currency', currency: 'USD', minimumFractionDigits: 0, maximumFractionDigits: 0 }).format(amount);
     
+    // Returns a URL for a company's logo
+    const getLogoUrl = (employer) => {
+        const name = employer.toLowerCase();
+        if (name.includes('google')) return `${base}/logos/google.svg`;
+        if (name.includes('meta')) return `${base}/logos/meta.svg`;
+        if (name.includes('microsoft')) return `${base}/logos/microsoft.svg`;
+        return ''
+    };
+
     // Returns a color hex code based on party name for inline styling
     const getPartyColor = (party) => {
         if (!party) return '#4b5563'; // gray-600
@@ -149,7 +158,9 @@
                     {@const key = `cluster-${i}`}
                     <div class="bg-orange-50 p-4 sm:p-5 rounded-xl shadow-lg border-2 border-orange-200">
                         <div class="flex items-start space-x-4">
-                            <div class="text-2xl pt-2">👥</div>
+                            <div class="text-2xl pt-2">
+                                <img src={getLogoUrl(item.employer)} alt={`${item.employer} logo`} class="h-8 w-8 rounded-full" />
+                            </div>
                             <div class="flex-1">
                                 <p class="text-sm font-semibold uppercase text-orange-600">Executive Cluster</p>
                                 <h3 class="text-lg font-bold mt-1">
@@ -208,7 +219,9 @@
                         {@const key = `${month}-${i}`}
                         <div class="bg-white p-4 sm:p-5 rounded-xl shadow-md border-2 border-purple-200">
                             <div class="flex items-start space-x-4">
-                                <div class="text-xl pt-1">🏢</div>
+                                <div class="text-xl pt-1">
+                                    <img src={getLogoUrl(item.donorName)} alt={`${item.donorName} logo`} class="h-8 w-8 rounded-full" />
+                                </div>
                                 <div class="flex-1">
                                     <div class="flex justify-between items-start">
                                         <div>
