@@ -7,8 +7,28 @@
     let clusterEvents = [];
     $: filteredClusterEvents = clusterEvents.filter(item => item.donorCount >= 3);
     let pacContributions = [];
-    let lastUpdated = new Date().toLocaleString();
+    let lastUpdated = "";
     let expandedItems = {}; // Tracks expanded state for all collapsible sections
+
+    // Function to calculate the latest contribution date
+    function calculateLastUpdated(clusters, pacs) {
+        let maxDate = null;
+
+        const allContributions = [];
+        clusters.forEach(c => allContributions.push(...c.contributions));
+        pacs.forEach(p => allContributions.push(p));
+
+        allContributions.forEach(c => {
+            const date = new Date(c.date.replace(/-/g, '/'));
+            if (!maxDate || date > maxDate) {
+                maxDate = date;
+            }
+        });
+
+        if (maxDate) {
+            lastUpdated = maxDate.toLocaleString();
+        }
+    }
 
     // Fetch the processed data once the component is mounted in the browser
     onMount(async () => {
@@ -18,6 +38,7 @@
                 const data = await response.json();
                 clusterEvents = data.clusterEvents || [];
                 pacContributions = data.pacContributions || [];
+                calculateLastUpdated(clusterEvents, pacContributions);
             } else {
                 console.error("Failed to load formatted contribution data");
             }
